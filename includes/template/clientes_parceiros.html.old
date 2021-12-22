@@ -1,0 +1,32 @@
+<section class="fw_100" id="clientes">
+	<div class="t_box">
+		<div class="col_1">
+			<h1 class="titulo_cinza">CLIENTES | PARCEIROS</h1>
+		</div>
+		<div class="col_4">
+			<ul>
+				<li><a href="https://www.allianz.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-allianz.png" class="hvr-buzz"></a></li>
+				<li><a href="http://www.vivo.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-vivo.png" class="hvr-buzz"></a></li>
+				<li><a href="http://www.clubmed.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-clubmed.png" class="hvr-buzz"></a></li>
+				<li><a href="http://www.votorantim.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-votorantim.png" class="hvr-buzz"></a></li>
+				<li><a href="http://abrebrasil.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-abre.png" class="hvr-buzz"></a></li>
+				<li><a href="http://digitalks.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-digitalks.png" class="hvr-buzz"></a></li>
+				<li><a href="http://directmkt.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-directmkt.png" class="hvr-buzz"></a></li>
+				<li><a href="http://www.ofertadinamica.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-oferta_02.png" class="hvr-buzz"></a></li>
+				<li><a href="http://www.buzzerdigital.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-buzzer.png" class="hvr-buzz"></a></li>
+				<li><a href="http://www.equinix.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-equinix.png" class="hvr-buzz"></a></li>
+				<li><a href="http://febeus.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-febeus.png" class="hvr-buzz"></a></li>
+				<li><a href="http://www.inovaar.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-inovaar.png" class="hvr-buzz"></a></li>
+				<li><a href="http://www.rosamadeira.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-rosa_madeira.png" class="hvr-buzz"></a></li>
+				<li><a href="http://indicadordeofertas.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-indicador.png" class="hvr-buzz"></a></li>
+				<li><a href="http://www.netshoes.com.br/" target="_blank"><img src="/includes/images/clientes_logo/logo-netshoes.png" class="hvr-buzz"></a></li>
+				
+				
+				
+				<!-- <li><a href="" target="_blank"><img src="/includes/images/clientes_logo/logo-amil.png" class="hvr-buzz"></a></li> -->
+				<!-- <li><a href="" target="_blank"><img src="/includes/images/clientes_logo/logo-rise.png" class="hvr-buzz"></a></li> -->
+				<!-- <li><a href="" target="_blank"><img src="/includes/images/clientes_logo/logo-retorna.png" class="hvr-buzz"></a></li> -->
+			</ul>
+		</div>
+	</div>
+</section>

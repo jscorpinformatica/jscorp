@@ -1,0 +1,2130 @@
+{"id":3802311426199,"admin_graphql_api_id":"gid:\/\/shopify\/Order\/3802311426199","app_id":4388099,"browser_ip":null,"buyer_accepts_marketing":false,"cancel_reason":null,"cancelled_at":null,"cart_token":null,"checkout_id":null,"checkout_token":null,"closed_at":null,"confirmed":true,"contact_email":"jansen@jscorp.com.br","created_at":"2021-04-27T18:14:03-03:00","currency":"BRL","current_subtotal_price":"198.00","current_subtotal_price_set":{"shop_money":{"amount":"198.00","currency_code":"BRL"},"presentment_money":{"amount":"198.00","currency_code":"BRL"}},"current_total_discounts":"0.00","current_total_discounts_set":{"shop_money":{"amount":"0.00","currency_code":"BRL"},"presentment_money":{"amount":"0.00","currency_code":"BRL"}},"current_total_duties_set":null,"current_total_price":"243.80","current_total_price_set":{"shop_money":{"amount":"243.80","currency_code":"BRL"},"presentment_money":{"amount":"243.80","currency_code":"BRL"}},"current_total_tax":"0.00","current_total_tax_set":{"shop_money":{"amount":"0.00","currency_code":"BRL"},"presentment_money":{"amount":"0.00","currency_code":"BRL"}},"customer_locale":null,"device_id":null,"discount_codes":[],"email":"jansen@jscorp.com.br","financial_status":"paid","fulfillment_status":null,"gateway":"Mercadopago","landing_site":null,"landing_site_ref":null,"location_id":null,"name":"#2553","note":"Pedido Yampi 20939593657302","note_attributes":[{"name":"URL Boleto","value":"https:\/\/www.mercadopago.com\/mlb\/payments\/ticket\/helper?payment_id=14625766717\u0026payment_method_reference_id=9778391293\u0026caller_id=659387978\u0026hash=b9a7bcc8-e2c3-45df-a683-d31c40be46f0"}],"number":1553,"order_number":2553,"order_status_url":"https:\/\/www.lartduvin.com.br\/48146546839\/orders\/3a4a0335726d6a715845c13677b08c23\/authenticate?key=ace0abd72daf615b9b75fd8269aa330d","original_total_duties_set":null,"payment_gateway_names":["Mercadopago"],"phone":null,"presentment_currency":"BRL","processed_at":"2021-04-27T18:14:03-03:00","processing_method":"","reference":null,"referring_site":null,"source_identifier":null,"source_name":"4388099","source_url":null,"subtotal_price":"198.00","subtotal_price_set":{"shop_money":{"amount":"198.00","currency_code":"BRL"},"presentment_money":{"amount":"198.00","currency_code":"BRL"}},"tags":"01088749747, 20939593657302, Boleto","tax_lines":[],"taxes_included":false,"test":false,"token":"3a4a0335726d6a715845c13677b08c23","total_discounts":"0.00","total_discounts_set":{"shop_money":{"amount":"0.00","currency_code":"BRL"},"presentment_money":{"amount":"0.00","currency_code":"BRL"}},"total_line_items_price":"198.00","total_line_items_price_set":{"shop_money":{"amount":"198.00","currency_code":"BRL"},"presentment_money":{"amount":"198.00","currency_code":"BRL"}},"total_outstanding":"0.00","total_price":"243.80","total_price_set":{"shop_money":{"amount":"243.80","currency_code":"BRL"},"presentment_money":{"amount":"243.80","currency_code":"BRL"}},"total_price_usd":"44.84","total_shipping_price_set":{"shop_money":{"amount":"45.80","currency_code":"BRL"},"presentment_money":{"amount":"45.80","currency_code":"BRL"}},"total_tax":"0.00","total_tax_set":{"shop_money":{"amount":"0.00","currency_code":"BRL"},"presentment_money":{"amount":"0.00","currency_code":"BRL"}},"total_tip_received":"0.00","total_weight":1580,"updated_at":"2021-04-27T18:14:30-03:00","user_id":null,"billing_address":{"first_name":"Jansen","address1":"Rua Vitorino Carmilo, 100, ap 402","phone":"+5521976945998","city":"São Paulo","zip":"01153000","province":"São Paulo","country":"Brazil","last_name":"Schemidt","address2":"Barra Funda","company":"01088749747","latitude":null,"longitude":null,"name":"Jansen Schemidt","country_code":"BR","province_code":"SP"},"customer":{"id":4150602334359,"email":"jansen@jscorp.com.br","accepts_marketing":false,"created_at":"2020-10-15T16:02:09-03:00","updated_at":"2021-04-27T18:14:03-03:00","first_name":"Jansen","last_name":"Schemidt","orders_count":20,"state":"disabled","total_spent":"2975.50","last_order_id":3802311426199,"note":null,"verified_email":true,"multipass_identifier":null,"tax_exempt":false,"phone":null,"tags":"","last_order_name":"#2553","currency":"BRL","accepts_marketing_updated_at":"2020-10-15T16:02:10-03:00","marketing_opt_in_level":null,"admin_graphql_api_id":"gid:\/\/shopify\/Customer\/4150602334359","default_address":{"id":6379384701079,"customer_id":4150602334359,"first_name":"Jansen","last_name":"Schemidt","company":"01088749747","address1":"Rua Vitorino Carmilo, 100, ap 402","address2":"Barra Funda","city":"São Paulo","province":"São Paulo","country":"Brazil","zip":"01153000","phone":"+5521976945998","name":"Jansen Schemidt","province_code":"SP","country_code":"BR","country_name":"Brazil","default":true}},"discount_applications":[],"fulfillments":[],"line_items":[{"id":9854986354839,"admin_graphql_api_id":"gid:\/\/shopify\/LineItem\/9854986354839","fulfillable_quantity":1,"fulfillment_service":"manual","fulfillment_status":null,"gift_card":false,"grams":1580,"name":"JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 630 ML","price":"198.00","price_set":{"shop_money":{"amount":"198.00","currency_code":"BRL"},"presentment_money":{"amount":"198.00","currency_code":"BRL"}},"product_exists":true,"product_id":5702578241687,"properties":[],"quantity":1,"requires_shipping":true,"sku":"1SD22\/630","taxable":true,"title":"JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 630 ML","total_discount":"0.00","total_discount_set":{"shop_money":{"amount":"0.00","currency_code":"BRL"},"presentment_money":{"amount":"0.00","currency_code":"BRL"}},"variant_id":38994957631639,"variant_inventory_management":"shopify","variant_title":null,"vendor":"Crystalite Bohemia","tax_lines":[],"duties":[],"discount_allocations":[]}],"refunds":[],"shipping_address":{"first_name":"Jansen","address1":"Rua Vitorino Carmilo, 100, ap 402","phone":"+5521976945998","city":"São Paulo","zip":"01153000","province":"São Paulo","country":"Brazil","last_name":"Schemidt","address2":"Barra Funda","company":"01088749747","latitude":null,"longitude":null,"name":"Jansen Schemidt","country_code":"BR","province_code":"SP"},"shipping_lines":[{"id":3208625258647,"carrier_identifier":null,"code":"FRENET_SEDEX_04014_BACKUP","delivery_category":null,"discounted_price":"45.80","discounted_price_set":{"shop_money":{"amount":"45.80","currency_code":"BRL"},"presentment_money":{"amount":"45.80","currency_code":"BRL"}},"phone":null,"price":"45.80","price_set":{"shop_money":{"amount":"45.80","currency_code":"BRL"},"presentment_money":{"amount":"45.80","currency_code":"BRL"}},"requested_fulfillment_service_id":null,"source":null,"title":"FRENET_SEDEX_04014_BACKUP","tax_lines":[],"discount_allocations":[]}]}1{
+  "id": 3859282067607_teste,
+  "admin_graphql_api_id": "gid:\/\/shopify\/Order\/3859282067607",
+  "app_id": 4388099,
+  "browser_ip": null,
+  "buyer_accepts_marketing": false,
+  "cancel_reason": null,
+  "cancelled_at": null,
+  "cart_token": null,
+  "checkout_id": null,
+  "checkout_token": null,
+  "closed_at": null,
+  "confirmed": true,
+  "contact_email": "jansen@jscorp.com.br",
+  "created_at": "2021-05-19T19:29:26-03:00",
+  "currency": "BRL",
+  "current_subtotal_price": "396.00",
+  "current_subtotal_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_discounts": "0.00",
+  "current_total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_duties_set": null,
+  "current_total_price": "423.20",
+  "current_total_price_set": {
+    "shop_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_tax": "0.00",
+  "current_total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "customer_locale": null,
+  "device_id": null,
+  "discount_codes": [
+    
+  ],
+  "email": "jansen@jscorp.com.br",
+  "financial_status": "paid",
+  "fulfillment_status": null,
+  "gateway": "Mercadopago",
+  "landing_site": null,
+  "landing_site_ref": null,
+  "location_id": null,
+  "name": "#2828",
+  "note": "Pedido Yampi 20939593657578",
+  "note_attributes": [
+    {
+      "name": "URL Boleto",
+      "value": "https:\/\/www.mercadopago.com\/mlb\/payments\/ticket\/helper?payment_id=14955884793\u0026payment_method_reference_id=9790941386\u0026caller_id=659387978\u0026hash=abab3655-5665-410d-b9c4-329a981a35e0"
+    }
+  ],
+  "number": 1828,
+  "order_number": 2828,
+  "order_status_url": "https:\/\/www.lartduvin.com.br\/48146546839\/orders\/cea0a52bdf7d3f28a38d7e9de52bcad9\/authenticate?key=e9102868184ed17487b777b13d44666c",
+  "original_total_duties_set": null,
+  "payment_gateway_names": [
+    "Mercadopago"
+  ],
+  "phone": null,
+  "presentment_currency": "BRL",
+  "processed_at": "2021-05-19T19:29:26-03:00",
+  "processing_method": "",
+  "reference": null,
+  "referring_site": null,
+  "source_identifier": null,
+  "source_name": "4388099",
+  "source_url": null,
+  "subtotal_price": "396.00",
+  "subtotal_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "tags": "01088749747, 20939593657578, Boleto",
+  "tax_lines": [
+    
+  ],
+  "taxes_included": false,
+  "test": false,
+  "token": "cea0a52bdf7d3f28a38d7e9de52bcad9",
+  "total_discounts": "0.00",
+  "total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_line_items_price": "396.00",
+  "total_line_items_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_outstanding": "0.00",
+  "total_price": "423.20",
+  "total_price_set": {
+    "shop_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    }
+  },
+  "total_price_usd": "80.44",
+  "total_shipping_price_set": {
+    "shop_money": {
+      "amount": "27.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "27.20",
+      "currency_code": "BRL"
+    }
+  },
+  "total_tax": "0.00",
+  "total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_tip_received": "0.00",
+  "total_weight": 2400,
+  "updated_at": "2021-05-19T19:49:33-03:00",
+  "user_id": null,
+  "billing_address": {
+    "first_name": "Jansen",
+    "address1": "Rua Malibu, 285, bl2 ap 805",
+    "phone": "+5521976945998",
+    "city": "Rio de Janeiro",
+    "zip": "22793295",
+    "province": "Rio de Janeiro",
+    "country": "Brazil",
+    "last_name": "Schemidt",
+    "address2": "Barra da Tijuca",
+    "company": "01088749747",
+    "latitude": -23.0018697,
+    "longitude": -43.3914055,
+    "name": "Jansen Schemidt",
+    "country_code": "BR",
+    "province_code": "RJ"
+  },
+  "customer": {
+    "id": 4150602334359,
+    "email": "jansen@jscorp.com.br",
+    "accepts_marketing": false,
+    "created_at": "2020-10-15T16:02:09-03:00",
+    "updated_at": "2021-05-19T19:29:27-03:00",
+    "first_name": "Jansen",
+    "last_name": "Schemidt",
+    "orders_count": 28,
+    "state": "disabled",
+    "total_spent": "2995.16",
+    "last_order_id": 3859282067607,
+    "note": null,
+    "verified_email": true,
+    "multipass_identifier": null,
+    "tax_exempt": false,
+    "phone": null,
+    "tags": "",
+    "last_order_name": "#2828",
+    "currency": "BRL",
+    "accepts_marketing_updated_at": "2020-10-15T16:02:10-03:00",
+    "marketing_opt_in_level": null,
+    "admin_graphql_api_id": "gid:\/\/shopify\/Customer\/4150602334359",
+    "default_address": {
+      "id": 6292438909079,
+      "customer_id": 4150602334359,
+      "first_name": "Jansen",
+      "last_name": "Schemidt",
+      "company": "01088749747",
+      "address1": "Rua Malibu, 285, bl2 ap 805",
+      "address2": "Barra da Tijuca",
+      "city": "Rio de Janeiro",
+      "province": "Rio de Janeiro",
+      "country": "Brazil",
+      "zip": "22793295",
+      "phone": "+5521976945998",
+      "name": "Jansen Schemidt",
+      "province_code": "RJ",
+      "country_code": "BR",
+      "country_name": "Brazil",
+      "default": true
+    }
+  },
+  "discount_applications": [
+    
+  ],
+  "fulfillments": [
+    
+  ],
+  "line_items": [
+    {
+      "id": 9943812604055,
+      "admin_graphql_api_id": "gid:\/\/shopify\/LineItem\/9943812604055",
+      "fulfillable_quantity": 2,
+      "fulfillment_service": "manual",
+      "fulfillment_status": null,
+      "gift_card": false,
+      "grams": 1200,
+      "name": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+      "price": "198.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "198.00",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "198.00",
+          "currency_code": "BRL"
+        }
+      },
+      "product_exists": true,
+      "product_id": 6378712793239,
+      "properties": [
+        
+      ],
+      "quantity": 2,
+      "requires_shipping": true,
+      "sku": "1SF00\/610",
+      "taxable": true,
+      "title": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "BRL"
+        }
+      },
+      "variant_id": 38874014515351,
+      "variant_inventory_management": "shopify",
+      "variant_title": null,
+      "vendor": "L'Art du Vin Cristais",
+      "tax_lines": [
+        
+      ],
+      "duties": [
+        
+      ],
+      "discount_allocations": [
+        
+      ]
+    }
+  ],
+  "refunds": [
+    
+  ],
+  "shipping_address": {
+    "first_name": "Jansen",
+    "address1": "Rua Malibu, 285, bl2 ap 805",
+    "phone": "+5521976945998",
+    "city": "Rio de Janeiro",
+    "zip": "22793295",
+    "province": "Rio de Janeiro",
+    "country": "Brazil",
+    "last_name": "Schemidt",
+    "address2": "Barra da Tijuca",
+    "company": "01088749747",
+    "latitude": -23.0018697,
+    "longitude": -43.3914055,
+    "name": "Jansen Schemidt",
+    "country_code": "BR",
+    "province_code": "RJ"
+  },
+  "shipping_lines": [
+    {
+      "id": 3244457361559,
+      "carrier_identifier": null,
+      "code": "FRENET_SEDEX_04014_BACKUP",
+      "delivery_category": null,
+      "discounted_price": "27.20",
+      "discounted_price_set": {
+        "shop_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        }
+      },
+      "phone": null,
+      "price": "27.20",
+      "price_set": {
+        "shop_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        }
+      },
+      "requested_fulfillment_service_id": null,
+      "source": null,
+      "title": "FRENET_SEDEX_04014_BACKUP",
+      "tax_lines": [
+        
+      ],
+      "discount_allocations": [
+        
+      ]
+    }
+  ]
+}{
+  "id": 3859282067607_teste,
+  "admin_graphql_api_id": "gid:\/\/shopify\/Order\/3859282067607",
+  "app_id": 4388099,
+  "browser_ip": null,
+  "buyer_accepts_marketing": false,
+  "cancel_reason": null,
+  "cancelled_at": null,
+  "cart_token": null,
+  "checkout_id": null,
+  "checkout_token": null,
+  "closed_at": null,
+  "confirmed": true,
+  "contact_email": "jansen@jscorp.com.br",
+  "created_at": "2021-05-19T19:29:26-03:00",
+  "currency": "BRL",
+  "current_subtotal_price": "396.00",
+  "current_subtotal_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_discounts": "0.00",
+  "current_total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_duties_set": null,
+  "current_total_price": "423.20",
+  "current_total_price_set": {
+    "shop_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_tax": "0.00",
+  "current_total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "customer_locale": null,
+  "device_id": null,
+  "discount_codes": [
+    
+  ],
+  "email": "jansen@jscorp.com.br",
+  "financial_status": "paid",
+  "fulfillment_status": null,
+  "gateway": "Mercadopago",
+  "landing_site": null,
+  "landing_site_ref": null,
+  "location_id": null,
+  "name": "#2828",
+  "note": "Pedido Yampi 20939593657578",
+  "note_attributes": [
+    {
+      "name": "URL Boleto",
+      "value": "https:\/\/www.mercadopago.com\/mlb\/payments\/ticket\/helper?payment_id=14955884793\u0026payment_method_reference_id=9790941386\u0026caller_id=659387978\u0026hash=abab3655-5665-410d-b9c4-329a981a35e0"
+    }
+  ],
+  "number": 1828,
+  "order_number": 2828,
+  "order_status_url": "https:\/\/www.lartduvin.com.br\/48146546839\/orders\/cea0a52bdf7d3f28a38d7e9de52bcad9\/authenticate?key=e9102868184ed17487b777b13d44666c",
+  "original_total_duties_set": null,
+  "payment_gateway_names": [
+    "Mercadopago"
+  ],
+  "phone": null,
+  "presentment_currency": "BRL",
+  "processed_at": "2021-05-19T19:29:26-03:00",
+  "processing_method": "",
+  "reference": null,
+  "referring_site": null,
+  "source_identifier": null,
+  "source_name": "4388099",
+  "source_url": null,
+  "subtotal_price": "396.00",
+  "subtotal_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "tags": "01088749747, 20939593657578, Boleto",
+  "tax_lines": [
+    
+  ],
+  "taxes_included": false,
+  "test": false,
+  "token": "cea0a52bdf7d3f28a38d7e9de52bcad9",
+  "total_discounts": "0.00",
+  "total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_line_items_price": "396.00",
+  "total_line_items_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_outstanding": "0.00",
+  "total_price": "423.20",
+  "total_price_set": {
+    "shop_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    }
+  },
+  "total_price_usd": "80.44",
+  "total_shipping_price_set": {
+    "shop_money": {
+      "amount": "27.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "27.20",
+      "currency_code": "BRL"
+    }
+  },
+  "total_tax": "0.00",
+  "total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_tip_received": "0.00",
+  "total_weight": 2400,
+  "updated_at": "2021-05-19T19:49:33-03:00",
+  "user_id": null,
+  "billing_address": {
+    "first_name": "Jansen",
+    "address1": "Rua Malibu, 285, bl2 ap 805",
+    "phone": "+5521976945998",
+    "city": "Rio de Janeiro",
+    "zip": "22793295",
+    "province": "Rio de Janeiro",
+    "country": "Brazil",
+    "last_name": "Schemidt",
+    "address2": "Barra da Tijuca",
+    "company": "01088749747",
+    "latitude": -23.0018697,
+    "longitude": -43.3914055,
+    "name": "Jansen Schemidt",
+    "country_code": "BR",
+    "province_code": "RJ"
+  },
+  "customer": {
+    "id": 4150602334359,
+    "email": "jansen@jscorp.com.br",
+    "accepts_marketing": false,
+    "created_at": "2020-10-15T16:02:09-03:00",
+    "updated_at": "2021-05-19T19:29:27-03:00",
+    "first_name": "Jansen",
+    "last_name": "Schemidt",
+    "orders_count": 28,
+    "state": "disabled",
+    "total_spent": "2995.16",
+    "last_order_id": 3859282067607,
+    "note": null,
+    "verified_email": true,
+    "multipass_identifier": null,
+    "tax_exempt": false,
+    "phone": null,
+    "tags": "",
+    "last_order_name": "#2828",
+    "currency": "BRL",
+    "accepts_marketing_updated_at": "2020-10-15T16:02:10-03:00",
+    "marketing_opt_in_level": null,
+    "admin_graphql_api_id": "gid:\/\/shopify\/Customer\/4150602334359",
+    "default_address": {
+      "id": 6292438909079,
+      "customer_id": 4150602334359,
+      "first_name": "Jansen",
+      "last_name": "Schemidt",
+      "company": "01088749747",
+      "address1": "Rua Malibu, 285, bl2 ap 805",
+      "address2": "Barra da Tijuca",
+      "city": "Rio de Janeiro",
+      "province": "Rio de Janeiro",
+      "country": "Brazil",
+      "zip": "22793295",
+      "phone": "+5521976945998",
+      "name": "Jansen Schemidt",
+      "province_code": "RJ",
+      "country_code": "BR",
+      "country_name": "Brazil",
+      "default": true
+    }
+  },
+  "discount_applications": [
+    
+  ],
+  "fulfillments": [
+    
+  ],
+  "line_items": [
+    {
+      "id": 9943812604055,
+      "admin_graphql_api_id": "gid:\/\/shopify\/LineItem\/9943812604055",
+      "fulfillable_quantity": 2,
+      "fulfillment_service": "manual",
+      "fulfillment_status": null,
+      "gift_card": false,
+      "grams": 1200,
+      "name": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+      "price": "198.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "198.00",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "198.00",
+          "currency_code": "BRL"
+        }
+      },
+      "product_exists": true,
+      "product_id": 6378712793239,
+      "properties": [
+        
+      ],
+      "quantity": 2,
+      "requires_shipping": true,
+      "sku": "1SF00\/610",
+      "taxable": true,
+      "title": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "BRL"
+        }
+      },
+      "variant_id": 38874014515351,
+      "variant_inventory_management": "shopify",
+      "variant_title": null,
+      "vendor": "L'Art du Vin Cristais",
+      "tax_lines": [
+        
+      ],
+      "duties": [
+        
+      ],
+      "discount_allocations": [
+        
+      ]
+    }
+  ],
+  "refunds": [
+    
+  ],
+  "shipping_address": {
+    "first_name": "Jansen",
+    "address1": "Rua Malibu, 285, bl2 ap 805",
+    "phone": "+5521976945998",
+    "city": "Rio de Janeiro",
+    "zip": "22793295",
+    "province": "Rio de Janeiro",
+    "country": "Brazil",
+    "last_name": "Schemidt",
+    "address2": "Barra da Tijuca",
+    "company": "01088749747",
+    "latitude": -23.0018697,
+    "longitude": -43.3914055,
+    "name": "Jansen Schemidt",
+    "country_code": "BR",
+    "province_code": "RJ"
+  },
+  "shipping_lines": [
+    {
+      "id": 3244457361559,
+      "carrier_identifier": null,
+      "code": "FRENET_SEDEX_04014_BACKUP",
+      "delivery_category": null,
+      "discounted_price": "27.20",
+      "discounted_price_set": {
+        "shop_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        }
+      },
+      "phone": null,
+      "price": "27.20",
+      "price_set": {
+        "shop_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        }
+      },
+      "requested_fulfillment_service_id": null,
+      "source": null,
+      "title": "FRENET_SEDEX_04014_BACKUP",
+      "tax_lines": [
+        
+      ],
+      "discount_allocations": [
+        
+      ]
+    }
+  ]
+}{
+  "id": 3859282067607_teste,
+  "admin_graphql_api_id": "gid:\/\/shopify\/Order\/3859282067607",
+  "app_id": 4388099,
+  "browser_ip": null,
+  "buyer_accepts_marketing": false,
+  "cancel_reason": null,
+  "cancelled_at": null,
+  "cart_token": null,
+  "checkout_id": null,
+  "checkout_token": null,
+  "closed_at": null,
+  "confirmed": true,
+  "contact_email": "jansen@jscorp.com.br",
+  "created_at": "2021-05-19T19:29:26-03:00",
+  "currency": "BRL",
+  "current_subtotal_price": "396.00",
+  "current_subtotal_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_discounts": "0.00",
+  "current_total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_duties_set": null,
+  "current_total_price": "423.20",
+  "current_total_price_set": {
+    "shop_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_tax": "0.00",
+  "current_total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "customer_locale": null,
+  "device_id": null,
+  "discount_codes": [
+    
+  ],
+  "email": "jansen@jscorp.com.br",
+  "financial_status": "paid",
+  "fulfillment_status": null,
+  "gateway": "Mercadopago",
+  "landing_site": null,
+  "landing_site_ref": null,
+  "location_id": null,
+  "name": "#2828",
+  "note": "Pedido Yampi 20939593657578",
+  "note_attributes": [
+    {
+      "name": "URL Boleto",
+      "value": "https:\/\/www.mercadopago.com\/mlb\/payments\/ticket\/helper?payment_id=14955884793\u0026payment_method_reference_id=9790941386\u0026caller_id=659387978\u0026hash=abab3655-5665-410d-b9c4-329a981a35e0"
+    }
+  ],
+  "number": 1828,
+  "order_number": 2828,
+  "order_status_url": "https:\/\/www.lartduvin.com.br\/48146546839\/orders\/cea0a52bdf7d3f28a38d7e9de52bcad9\/authenticate?key=e9102868184ed17487b777b13d44666c",
+  "original_total_duties_set": null,
+  "payment_gateway_names": [
+    "Mercadopago"
+  ],
+  "phone": null,
+  "presentment_currency": "BRL",
+  "processed_at": "2021-05-19T19:29:26-03:00",
+  "processing_method": "",
+  "reference": null,
+  "referring_site": null,
+  "source_identifier": null,
+  "source_name": "4388099",
+  "source_url": null,
+  "subtotal_price": "396.00",
+  "subtotal_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "tags": "01088749747, 20939593657578, Boleto",
+  "tax_lines": [
+    
+  ],
+  "taxes_included": false,
+  "test": false,
+  "token": "cea0a52bdf7d3f28a38d7e9de52bcad9",
+  "total_discounts": "0.00",
+  "total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_line_items_price": "396.00",
+  "total_line_items_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_outstanding": "0.00",
+  "total_price": "423.20",
+  "total_price_set": {
+    "shop_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    }
+  },
+  "total_price_usd": "80.44",
+  "total_shipping_price_set": {
+    "shop_money": {
+      "amount": "27.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "27.20",
+      "currency_code": "BRL"
+    }
+  },
+  "total_tax": "0.00",
+  "total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_tip_received": "0.00",
+  "total_weight": 2400,
+  "updated_at": "2021-05-19T19:49:33-03:00",
+  "user_id": null,
+  "billing_address": {
+    "first_name": "Jansen",
+    "address1": "Rua Malibu, 285, bl2 ap 805",
+    "phone": "+5521976945998",
+    "city": "Rio de Janeiro",
+    "zip": "22793295",
+    "province": "Rio de Janeiro",
+    "country": "Brazil",
+    "last_name": "Schemidt",
+    "address2": "Barra da Tijuca",
+    "company": "01088749747",
+    "latitude": -23.0018697,
+    "longitude": -43.3914055,
+    "name": "Jansen Schemidt",
+    "country_code": "BR",
+    "province_code": "RJ"
+  },
+  "customer": {
+    "id": 4150602334359,
+    "email": "jansen@jscorp.com.br",
+    "accepts_marketing": false,
+    "created_at": "2020-10-15T16:02:09-03:00",
+    "updated_at": "2021-05-19T19:29:27-03:00",
+    "first_name": "Jansen",
+    "last_name": "Schemidt",
+    "orders_count": 28,
+    "state": "disabled",
+    "total_spent": "2995.16",
+    "last_order_id": 3859282067607,
+    "note": null,
+    "verified_email": true,
+    "multipass_identifier": null,
+    "tax_exempt": false,
+    "phone": null,
+    "tags": "",
+    "last_order_name": "#2828",
+    "currency": "BRL",
+    "accepts_marketing_updated_at": "2020-10-15T16:02:10-03:00",
+    "marketing_opt_in_level": null,
+    "admin_graphql_api_id": "gid:\/\/shopify\/Customer\/4150602334359",
+    "default_address": {
+      "id": 6292438909079,
+      "customer_id": 4150602334359,
+      "first_name": "Jansen",
+      "last_name": "Schemidt",
+      "company": "01088749747",
+      "address1": "Rua Malibu, 285, bl2 ap 805",
+      "address2": "Barra da Tijuca",
+      "city": "Rio de Janeiro",
+      "province": "Rio de Janeiro",
+      "country": "Brazil",
+      "zip": "22793295",
+      "phone": "+5521976945998",
+      "name": "Jansen Schemidt",
+      "province_code": "RJ",
+      "country_code": "BR",
+      "country_name": "Brazil",
+      "default": true
+    }
+  },
+  "discount_applications": [
+    
+  ],
+  "fulfillments": [
+    
+  ],
+  "line_items": [
+    {
+      "id": 9943812604055,
+      "admin_graphql_api_id": "gid:\/\/shopify\/LineItem\/9943812604055",
+      "fulfillable_quantity": 2,
+      "fulfillment_service": "manual",
+      "fulfillment_status": null,
+      "gift_card": false,
+      "grams": 1200,
+      "name": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+      "price": "198.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "198.00",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "198.00",
+          "currency_code": "BRL"
+        }
+      },
+      "product_exists": true,
+      "product_id": 6378712793239,
+      "properties": [
+        
+      ],
+      "quantity": 2,
+      "requires_shipping": true,
+      "sku": "1SF00\/610",
+      "taxable": true,
+      "title": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "BRL"
+        }
+      },
+      "variant_id": 38874014515351,
+      "variant_inventory_management": "shopify",
+      "variant_title": null,
+      "vendor": "L'Art du Vin Cristais",
+      "tax_lines": [
+        
+      ],
+      "duties": [
+        
+      ],
+      "discount_allocations": [
+        
+      ]
+    }
+  ],
+  "refunds": [
+    
+  ],
+  "shipping_address": {
+    "first_name": "Jansen",
+    "address1": "Rua Malibu, 285, bl2 ap 805",
+    "phone": "+5521976945998",
+    "city": "Rio de Janeiro",
+    "zip": "22793295",
+    "province": "Rio de Janeiro",
+    "country": "Brazil",
+    "last_name": "Schemidt",
+    "address2": "Barra da Tijuca",
+    "company": "01088749747",
+    "latitude": -23.0018697,
+    "longitude": -43.3914055,
+    "name": "Jansen Schemidt",
+    "country_code": "BR",
+    "province_code": "RJ"
+  },
+  "shipping_lines": [
+    {
+      "id": 3244457361559,
+      "carrier_identifier": null,
+      "code": "FRENET_SEDEX_04014_BACKUP",
+      "delivery_category": null,
+      "discounted_price": "27.20",
+      "discounted_price_set": {
+        "shop_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        }
+      },
+      "phone": null,
+      "price": "27.20",
+      "price_set": {
+        "shop_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        }
+      },
+      "requested_fulfillment_service_id": null,
+      "source": null,
+      "title": "FRENET_SEDEX_04014_BACKUP",
+      "tax_lines": [
+        
+      ],
+      "discount_allocations": [
+        
+      ]
+    }
+  ]
+}{
+  "id": 3859282067607_teste,
+  "admin_graphql_api_id": "gid:\/\/shopify\/Order\/3859282067607",
+  "app_id": 4388099,
+  "browser_ip": null,
+  "buyer_accepts_marketing": false,
+  "cancel_reason": null,
+  "cancelled_at": null,
+  "cart_token": null,
+  "checkout_id": null,
+  "checkout_token": null,
+  "closed_at": null,
+  "confirmed": true,
+  "contact_email": "jansen@jscorp.com.br",
+  "created_at": "2021-05-19T19:29:26-03:00",
+  "currency": "BRL",
+  "current_subtotal_price": "396.00",
+  "current_subtotal_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_discounts": "0.00",
+  "current_total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_duties_set": null,
+  "current_total_price": "423.20",
+  "current_total_price_set": {
+    "shop_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_tax": "0.00",
+  "current_total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "customer_locale": null,
+  "device_id": null,
+  "discount_codes": [
+    
+  ],
+  "email": "jansen@jscorp.com.br",
+  "financial_status": "paid",
+  "fulfillment_status": null,
+  "gateway": "Mercadopago",
+  "landing_site": null,
+  "landing_site_ref": null,
+  "location_id": null,
+  "name": "#2828",
+  "note": "Pedido Yampi 20939593657578",
+  "note_attributes": [
+    {
+      "name": "URL Boleto",
+      "value": "https:\/\/www.mercadopago.com\/mlb\/payments\/ticket\/helper?payment_id=14955884793\u0026payment_method_reference_id=9790941386\u0026caller_id=659387978\u0026hash=abab3655-5665-410d-b9c4-329a981a35e0"
+    }
+  ],
+  "number": 1828,
+  "order_number": 2828,
+  "order_status_url": "https:\/\/www.lartduvin.com.br\/48146546839\/orders\/cea0a52bdf7d3f28a38d7e9de52bcad9\/authenticate?key=e9102868184ed17487b777b13d44666c",
+  "original_total_duties_set": null,
+  "payment_gateway_names": [
+    "Mercadopago"
+  ],
+  "phone": null,
+  "presentment_currency": "BRL",
+  "processed_at": "2021-05-19T19:29:26-03:00",
+  "processing_method": "",
+  "reference": null,
+  "referring_site": null,
+  "source_identifier": null,
+  "source_name": "4388099",
+  "source_url": null,
+  "subtotal_price": "396.00",
+  "subtotal_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "tags": "01088749747, 20939593657578, Boleto",
+  "tax_lines": [
+    
+  ],
+  "taxes_included": false,
+  "test": false,
+  "token": "cea0a52bdf7d3f28a38d7e9de52bcad9",
+  "total_discounts": "0.00",
+  "total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_line_items_price": "396.00",
+  "total_line_items_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_outstanding": "0.00",
+  "total_price": "423.20",
+  "total_price_set": {
+    "shop_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    }
+  },
+  "total_price_usd": "80.44",
+  "total_shipping_price_set": {
+    "shop_money": {
+      "amount": "27.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "27.20",
+      "currency_code": "BRL"
+    }
+  },
+  "total_tax": "0.00",
+  "total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_tip_received": "0.00",
+  "total_weight": 2400,
+  "updated_at": "2021-05-19T19:49:33-03:00",
+  "user_id": null,
+  "billing_address": {
+    "first_name": "Jansen",
+    "address1": "Rua Malibu, 285, bl2 ap 805",
+    "phone": "+5521976945998",
+    "city": "Rio de Janeiro",
+    "zip": "22793295",
+    "province": "Rio de Janeiro",
+    "country": "Brazil",
+    "last_name": "Schemidt",
+    "address2": "Barra da Tijuca",
+    "company": "01088749747",
+    "latitude": -23.0018697,
+    "longitude": -43.3914055,
+    "name": "Jansen Schemidt",
+    "country_code": "BR",
+    "province_code": "RJ"
+  },
+  "customer": {
+    "id": 4150602334359,
+    "email": "jansen@jscorp.com.br",
+    "accepts_marketing": false,
+    "created_at": "2020-10-15T16:02:09-03:00",
+    "updated_at": "2021-05-19T19:29:27-03:00",
+    "first_name": "Jansen",
+    "last_name": "Schemidt",
+    "orders_count": 28,
+    "state": "disabled",
+    "total_spent": "2995.16",
+    "last_order_id": 3859282067607,
+    "note": null,
+    "verified_email": true,
+    "multipass_identifier": null,
+    "tax_exempt": false,
+    "phone": null,
+    "tags": "",
+    "last_order_name": "#2828",
+    "currency": "BRL",
+    "accepts_marketing_updated_at": "2020-10-15T16:02:10-03:00",
+    "marketing_opt_in_level": null,
+    "admin_graphql_api_id": "gid:\/\/shopify\/Customer\/4150602334359",
+    "default_address": {
+      "id": 6292438909079,
+      "customer_id": 4150602334359,
+      "first_name": "Jansen",
+      "last_name": "Schemidt",
+      "company": "01088749747",
+      "address1": "Rua Malibu, 285, bl2 ap 805",
+      "address2": "Barra da Tijuca",
+      "city": "Rio de Janeiro",
+      "province": "Rio de Janeiro",
+      "country": "Brazil",
+      "zip": "22793295",
+      "phone": "+5521976945998",
+      "name": "Jansen Schemidt",
+      "province_code": "RJ",
+      "country_code": "BR",
+      "country_name": "Brazil",
+      "default": true
+    }
+  },
+  "discount_applications": [
+    
+  ],
+  "fulfillments": [
+    
+  ],
+  "line_items": [
+    {
+      "id": 9943812604055,
+      "admin_graphql_api_id": "gid:\/\/shopify\/LineItem\/9943812604055",
+      "fulfillable_quantity": 2,
+      "fulfillment_service": "manual",
+      "fulfillment_status": null,
+      "gift_card": false,
+      "grams": 1200,
+      "name": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+      "price": "198.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "198.00",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "198.00",
+          "currency_code": "BRL"
+        }
+      },
+      "product_exists": true,
+      "product_id": 6378712793239,
+      "properties": [
+        
+      ],
+      "quantity": 2,
+      "requires_shipping": true,
+      "sku": "1SF00\/610",
+      "taxable": true,
+      "title": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "BRL"
+        }
+      },
+      "variant_id": 38874014515351,
+      "variant_inventory_management": "shopify",
+      "variant_title": null,
+      "vendor": "L'Art du Vin Cristais",
+      "tax_lines": [
+        
+      ],
+      "duties": [
+        
+      ],
+      "discount_allocations": [
+        
+      ]
+    }
+  ],
+  "refunds": [
+    
+  ],
+  "shipping_address": {
+    "first_name": "Jansen",
+    "address1": "Rua Malibu, 285, bl2 ap 805",
+    "phone": "+5521976945998",
+    "city": "Rio de Janeiro",
+    "zip": "22793295",
+    "province": "Rio de Janeiro",
+    "country": "Brazil",
+    "last_name": "Schemidt",
+    "address2": "Barra da Tijuca",
+    "company": "01088749747",
+    "latitude": -23.0018697,
+    "longitude": -43.3914055,
+    "name": "Jansen Schemidt",
+    "country_code": "BR",
+    "province_code": "RJ"
+  },
+  "shipping_lines": [
+    {
+      "id": 3244457361559,
+      "carrier_identifier": null,
+      "code": "FRENET_SEDEX_04014_BACKUP",
+      "delivery_category": null,
+      "discounted_price": "27.20",
+      "discounted_price_set": {
+        "shop_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        }
+      },
+      "phone": null,
+      "price": "27.20",
+      "price_set": {
+        "shop_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        }
+      },
+      "requested_fulfillment_service_id": null,
+      "source": null,
+      "title": "FRENET_SEDEX_04014_BACKUP",
+      "tax_lines": [
+        
+      ],
+      "discount_allocations": [
+        
+      ]
+    }
+  ]
+}{
+  "id": 3859282067607_teste,
+  "admin_graphql_api_id": "gid:\/\/shopify\/Order\/3859282067607",
+  "app_id": 4388099,
+  "browser_ip": null,
+  "buyer_accepts_marketing": false,
+  "cancel_reason": null,
+  "cancelled_at": null,
+  "cart_token": null,
+  "checkout_id": null,
+  "checkout_token": null,
+  "closed_at": null,
+  "confirmed": true,
+  "contact_email": "jansen@jscorp.com.br",
+  "created_at": "2021-05-19T19:29:26-03:00",
+  "currency": "BRL",
+  "current_subtotal_price": "396.00",
+  "current_subtotal_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_discounts": "0.00",
+  "current_total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_duties_set": null,
+  "current_total_price": "423.20",
+  "current_total_price_set": {
+    "shop_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    }
+  },
+  "current_total_tax": "0.00",
+  "current_total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "customer_locale": null,
+  "device_id": null,
+  "discount_codes": [
+    
+  ],
+  "email": "jansen@jscorp.com.br",
+  "financial_status": "paid",
+  "fulfillment_status": null,
+  "gateway": "Mercadopago",
+  "landing_site": null,
+  "landing_site_ref": null,
+  "location_id": null,
+  "name": "#2828",
+  "note": "Pedido Yampi 20939593657578",
+  "note_attributes": [
+    {
+      "name": "URL Boleto",
+      "value": "https:\/\/www.mercadopago.com\/mlb\/payments\/ticket\/helper?payment_id=14955884793\u0026payment_method_reference_id=9790941386\u0026caller_id=659387978\u0026hash=abab3655-5665-410d-b9c4-329a981a35e0"
+    }
+  ],
+  "number": 1828,
+  "order_number": 2828,
+  "order_status_url": "https:\/\/www.lartduvin.com.br\/48146546839\/orders\/cea0a52bdf7d3f28a38d7e9de52bcad9\/authenticate?key=e9102868184ed17487b777b13d44666c",
+  "original_total_duties_set": null,
+  "payment_gateway_names": [
+    "Mercadopago"
+  ],
+  "phone": null,
+  "presentment_currency": "BRL",
+  "processed_at": "2021-05-19T19:29:26-03:00",
+  "processing_method": "",
+  "reference": null,
+  "referring_site": null,
+  "source_identifier": null,
+  "source_name": "4388099",
+  "source_url": null,
+  "subtotal_price": "396.00",
+  "subtotal_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "tags": "01088749747, 20939593657578, Boleto",
+  "tax_lines": [
+    
+  ],
+  "taxes_included": false,
+  "test": false,
+  "token": "cea0a52bdf7d3f28a38d7e9de52bcad9",
+  "total_discounts": "0.00",
+  "total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_line_items_price": "396.00",
+  "total_line_items_price_set": {
+    "shop_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "396.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_outstanding": "0.00",
+  "total_price": "423.20",
+  "total_price_set": {
+    "shop_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "423.20",
+      "currency_code": "BRL"
+    }
+  },
+  "total_price_usd": "80.44",
+  "total_shipping_price_set": {
+    "shop_money": {
+      "amount": "27.20",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "27.20",
+      "currency_code": "BRL"
+    }
+  },
+  "total_tax": "0.00",
+  "total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "BRL"
+    }
+  },
+  "total_tip_received": "0.00",
+  "total_weight": 2400,
+  "updated_at": "2021-05-19T19:49:33-03:00",
+  "user_id": null,
+  "billing_address": {
+    "first_name": "Jansen",
+    "address1": "Rua Malibu, 285, bl2 ap 805",
+    "phone": "+5521976945998",
+    "city": "Rio de Janeiro",
+    "zip": "22793295",
+    "province": "Rio de Janeiro",
+    "country": "Brazil",
+    "last_name": "Schemidt",
+    "address2": "Barra da Tijuca",
+    "company": "01088749747",
+    "latitude": -23.0018697,
+    "longitude": -43.3914055,
+    "name": "Jansen Schemidt",
+    "country_code": "BR",
+    "province_code": "RJ"
+  },
+  "customer": {
+    "id": 4150602334359,
+    "email": "jansen@jscorp.com.br",
+    "accepts_marketing": false,
+    "created_at": "2020-10-15T16:02:09-03:00",
+    "updated_at": "2021-05-19T19:29:27-03:00",
+    "first_name": "Jansen",
+    "last_name": "Schemidt",
+    "orders_count": 28,
+    "state": "disabled",
+    "total_spent": "2995.16",
+    "last_order_id": 3859282067607,
+    "note": null,
+    "verified_email": true,
+    "multipass_identifier": null,
+    "tax_exempt": false,
+    "phone": null,
+    "tags": "",
+    "last_order_name": "#2828",
+    "currency": "BRL",
+    "accepts_marketing_updated_at": "2020-10-15T16:02:10-03:00",
+    "marketing_opt_in_level": null,
+    "admin_graphql_api_id": "gid:\/\/shopify\/Customer\/4150602334359",
+    "default_address": {
+      "id": 6292438909079,
+      "customer_id": 4150602334359,
+      "first_name": "Jansen",
+      "last_name": "Schemidt",
+      "company": "01088749747",
+      "address1": "Rua Malibu, 285, bl2 ap 805",
+      "address2": "Barra da Tijuca",
+      "city": "Rio de Janeiro",
+      "province": "Rio de Janeiro",
+      "country": "Brazil",
+      "zip": "22793295",
+      "phone": "+5521976945998",
+      "name": "Jansen Schemidt",
+      "province_code": "RJ",
+      "country_code": "BR",
+      "country_name": "Brazil",
+      "default": true
+    }
+  },
+  "discount_applications": [
+    
+  ],
+  "fulfillments": [
+    
+  ],
+  "line_items": [
+    {
+      "id": 9943812604055,
+      "admin_graphql_api_id": "gid:\/\/shopify\/LineItem\/9943812604055",
+      "fulfillable_quantity": 2,
+      "fulfillment_service": "manual",
+      "fulfillment_status": null,
+      "gift_card": false,
+      "grams": 1200,
+      "name": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+      "price": "198.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "198.00",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "198.00",
+          "currency_code": "BRL"
+        }
+      },
+      "product_exists": true,
+      "product_id": 6378712793239,
+      "properties": [
+        
+      ],
+      "quantity": 2,
+      "requires_shipping": true,
+      "sku": "1SF00\/610",
+      "taxable": true,
+      "title": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "BRL"
+        }
+      },
+      "variant_id": 38874014515351,
+      "variant_inventory_management": "shopify",
+      "variant_title": null,
+      "vendor": "L'Art du Vin Cristais",
+      "tax_lines": [
+        
+      ],
+      "duties": [
+        
+      ],
+      "discount_allocations": [
+        
+      ]
+    }
+  ],
+  "refunds": [
+    
+  ],
+  "shipping_address": {
+    "first_name": "Jansen",
+    "address1": "Rua Malibu, 285, bl2 ap 805",
+    "phone": "+5521976945998",
+    "city": "Rio de Janeiro",
+    "zip": "22793295",
+    "province": "Rio de Janeiro",
+    "country": "Brazil",
+    "last_name": "Schemidt",
+    "address2": "Barra da Tijuca",
+    "company": "01088749747",
+    "latitude": -23.0018697,
+    "longitude": -43.3914055,
+    "name": "Jansen Schemidt",
+    "country_code": "BR",
+    "province_code": "RJ"
+  },
+  "shipping_lines": [
+    {
+      "id": 3244457361559,
+      "carrier_identifier": null,
+      "code": "FRENET_SEDEX_04014_BACKUP",
+      "delivery_category": null,
+      "discounted_price": "27.20",
+      "discounted_price_set": {
+        "shop_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        }
+      },
+      "phone": null,
+      "price": "27.20",
+      "price_set": {
+        "shop_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        },
+        "presentment_money": {
+          "amount": "27.20",
+          "currency_code": "BRL"
+        }
+      },
+      "requested_fulfillment_service_id": null,
+      "source": null,
+      "title": "FRENET_SEDEX_04014_BACKUP",
+      "tax_lines": [
+        
+      ],
+      "discount_allocations": [
+        
+      ]
+    }
+  ]
+}{
+    "order": {
+        "id": 3859282067607,
+        "admin_graphql_api_id": "gid://shopify/Order/3859282067607",
+        "app_id": 4388099,
+        "browser_ip": null,
+        "buyer_accepts_marketing": false,
+        "cancel_reason": null,
+        "cancelled_at": null,
+        "cart_token": null,
+        "checkout_id": null,
+        "checkout_token": null,
+        "closed_at": null,
+        "confirmed": true,
+        "contact_email": "jansen@jscorp.com.br",
+        "created_at": "2021-05-19T19:29:26-03:00",
+        "currency": "BRL",
+        "current_subtotal_price": "396.00",
+        "current_subtotal_price_set": {
+            "shop_money": {
+                "amount": "396.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "396.00",
+                "currency_code": "BRL"
+            }
+        },
+        "current_total_discounts": "0.00",
+        "current_total_discounts_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            }
+        },
+        "current_total_duties_set": null,
+        "current_total_price": "423.20",
+        "current_total_price_set": {
+            "shop_money": {
+                "amount": "423.20",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "423.20",
+                "currency_code": "BRL"
+            }
+        },
+        "current_total_tax": "0.00",
+        "current_total_tax_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            }
+        },
+        "customer_locale": null,
+        "device_id": null,
+        "discount_codes": [],
+        "email": "jansen@jscorp.com.br",
+        "financial_status": "paid",
+        "fulfillment_status": null,
+        "gateway": "Mercadopago",
+        "landing_site": null,
+        "landing_site_ref": null,
+        "location_id": null,
+        "name": "#2828",
+        "note": "Pedido Yampi 20939593657578",
+        "note_attributes": [
+            {
+                "name": "URL Boleto",
+                "value": "https://www.mercadopago.com/mlb/payments/ticket/helper?payment_id=14955884793&payment_method_reference_id=9790941386&caller_id=659387978&hash=abab3655-5665-410d-b9c4-329a981a35e0"
+            }
+        ],
+        "number": 1828,
+        "order_number": 2828,
+        "order_status_url": "https://www.lartduvin.com.br/48146546839/orders/cea0a52bdf7d3f28a38d7e9de52bcad9/authenticate?key=e9102868184ed17487b777b13d44666c",
+        "original_total_duties_set": null,
+        "payment_gateway_names": [
+            "Mercadopago"
+        ],
+        "phone": null,
+        "presentment_currency": "BRL",
+        "processed_at": "2021-05-19T19:29:26-03:00",
+        "processing_method": "",
+        "reference": null,
+        "referring_site": null,
+        "source_identifier": null,
+        "source_name": "4388099",
+        "source_url": null,
+        "subtotal_price": "396.00",
+        "subtotal_price_set": {
+            "shop_money": {
+                "amount": "396.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "396.00",
+                "currency_code": "BRL"
+            }
+        },
+        "tags": "01088749747, 20939593657578, Boleto",
+        "tax_lines": [],
+        "taxes_included": false,
+        "test": false,
+        "token": "cea0a52bdf7d3f28a38d7e9de52bcad9",
+        "total_discounts": "0.00",
+        "total_discounts_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            }
+        },
+        "total_line_items_price": "396.00",
+        "total_line_items_price_set": {
+            "shop_money": {
+                "amount": "396.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "396.00",
+                "currency_code": "BRL"
+            }
+        },
+        "total_outstanding": "0.00",
+        "total_price": "423.20",
+        "total_price_set": {
+            "shop_money": {
+                "amount": "423.20",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "423.20",
+                "currency_code": "BRL"
+            }
+        },
+        "total_price_usd": "80.44",
+        "total_shipping_price_set": {
+            "shop_money": {
+                "amount": "27.20",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "27.20",
+                "currency_code": "BRL"
+            }
+        },
+        "total_tax": "0.00",
+        "total_tax_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "BRL"
+            }
+        },
+        "total_tip_received": "0.00",
+        "total_weight": 2400,
+        "updated_at": "2021-05-19T19:49:33-03:00",
+        "user_id": null,
+        "billing_address": {
+            "first_name": "Jansen",
+            "address1": "Rua Malibu, 285, bl2 ap 805",
+            "phone": "+5521976945998",
+            "city": "Rio de Janeiro",
+            "zip": "22793295",
+            "province": "Rio de Janeiro",
+            "country": "Brazil",
+            "last_name": "Schemidt",
+            "address2": "Barra da Tijuca",
+            "company": "01088749747",
+            "latitude": -23.0018697,
+            "longitude": -43.3914055,
+            "name": "Jansen Schemidt",
+            "country_code": "BR",
+            "province_code": "RJ"
+        },
+        "customer": {
+            "id": 4150602334359,
+            "email": "jansen@jscorp.com.br",
+            "accepts_marketing": false,
+            "created_at": "2020-10-15T16:02:09-03:00",
+            "updated_at": "2021-05-19T19:29:27-03:00",
+            "first_name": "Jansen",
+            "last_name": "Schemidt",
+            "orders_count": 28,
+            "state": "disabled",
+            "total_spent": "2995.16",
+            "last_order_id": 3859282067607,
+            "note": null,
+            "verified_email": true,
+            "multipass_identifier": null,
+            "tax_exempt": false,
+            "phone": null,
+            "tags": "",
+            "last_order_name": "#2828",
+            "currency": "BRL",
+            "accepts_marketing_updated_at": "2020-10-15T16:02:10-03:00",
+            "marketing_opt_in_level": null,
+            "tax_exemptions": [],
+            "admin_graphql_api_id": "gid://shopify/Customer/4150602334359",
+            "default_address": {
+                "id": 6292438909079,
+                "customer_id": 4150602334359,
+                "first_name": "Jansen",
+                "last_name": "Schemidt",
+                "company": "01088749747",
+                "address1": "Rua Malibu, 285, bl2 ap 805",
+                "address2": "Barra da Tijuca",
+                "city": "Rio de Janeiro",
+                "province": "Rio de Janeiro",
+                "country": "Brazil",
+                "zip": "22793295",
+                "phone": "+5521976945998",
+                "name": "Jansen Schemidt",
+                "province_code": "RJ",
+                "country_code": "BR",
+                "country_name": "Brazil",
+                "default": true
+            }
+        },
+        "discount_applications": [],
+        "fulfillments": [],
+        "line_items": [
+            {
+                "id": 9943812604055,
+                "admin_graphql_api_id": "gid://shopify/LineItem/9943812604055",
+                "fulfillable_quantity": 2,
+                "fulfillment_service": "manual",
+                "fulfillment_status": null,
+                "gift_card": false,
+                "grams": 1200,
+                "name": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+                "price": "198.00",
+                "price_set": {
+                    "shop_money": {
+                        "amount": "198.00",
+                        "currency_code": "BRL"
+                    },
+                    "presentment_money": {
+                        "amount": "198.00",
+                        "currency_code": "BRL"
+                    }
+                },
+                "product_exists": true,
+                "product_id": 6378712793239,
+                "properties": [],
+                "quantity": 2,
+                "requires_shipping": true,
+                "sku": "1SF00/610",
+                "taxable": true,
+                "title": "JOGO DE 6 TAÇAS BOHEMIA VINHO TINTO - 610 ML",
+                "total_discount": "0.00",
+                "total_discount_set": {
+                    "shop_money": {
+                        "amount": "0.00",
+                        "currency_code": "BRL"
+                    },
+                    "presentment_money": {
+                        "amount": "0.00",
+                        "currency_code": "BRL"
+                    }
+                },
+                "variant_id": 38874014515351,
+                "variant_inventory_management": "shopify",
+                "variant_title": null,
+                "vendor": "L'Art du Vin Cristais",
+                "tax_lines": [],
+                "duties": [],
+                "discount_allocations": []
+            }
+        ],
+        "refunds": [],
+        "shipping_address": {
+            "first_name": "Jansen",
+            "address1": "Rua Malibu, 285, bl2 ap 805",
+            "phone": "+5521976945998",
+            "city": "Rio de Janeiro",
+            "zip": "22793295",
+            "province": "Rio de Janeiro",
+            "country": "Brazil",
+            "last_name": "Schemidt",
+            "address2": "Barra da Tijuca",
+            "company": "01088749747",
+            "latitude": -23.0018697,
+            "longitude": -43.3914055,
+            "name": "Jansen Schemidt",
+            "country_code": "BR",
+            "province_code": "RJ"
+        },
+        "shipping_lines": [
+            {
+                "id": 3244457361559,
+                "carrier_identifier": null,
+                "code": "FRENET_SEDEX_04014_BACKUP",
+                "delivery_category": null,
+                "discounted_price": "27.20",
+                "discounted_price_set": {
+                    "shop_money": {
+                        "amount": "27.20",
+                        "currency_code": "BRL"
+                    },
+                    "presentment_money": {
+                        "amount": "27.20",
+                        "currency_code": "BRL"
+                    }
+                },
+                "phone": null,
+                "price": "27.20",
+                "price_set": {
+                    "shop_money": {
+                        "amount": "27.20",
+                        "currency_code": "BRL"
+                    },
+                    "presentment_money": {
+                        "amount": "27.20",
+                        "currency_code": "BRL"
+                    }
+                },
+                "requested_fulfillment_service_id": null,
+                "source": null,
+                "title": "FRENET_SEDEX_04014_BACKUP",
+                "tax_lines": [],
+                "discount_allocations": []
+            }
+        ]
+    }
+}

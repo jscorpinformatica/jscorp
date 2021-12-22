@@ -1,0 +1,6 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.0",
+        "jarouche/viacep": "^1.2"
+    }
+}

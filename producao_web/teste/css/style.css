@@ -1,0 +1,406 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.progress{
+  background-color: lightgray !important;
+}
+
+.preload{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 1000;
+  -webkit-transition-property: opacity; /* Safari */
+    -webkit-transition-duration: 0.5s; /* Safari */
+
+    transition-property: opacity;
+    transition-duration: 0.9s;
+
+}
+.preload_middle{
+  position: absolute;
+  max-height:360px;
+  padding: 15% 0 25% 0;
+  /*background: red;*/
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.preloader-wrapper{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+header, main, footer {
+     padding-left: 240px;
+   }
+@media only screen and (max-width : 992px) {
+ header, main, footer {
+   padding-left: 0;
+ }
+}
+
+footer{
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.modal-content{
+  color: #333;
+}
+
+/*nav{
+  height: 78px;
+  line-height: 78px;
+}
+nav i.material-icons{
+  height: 78px;
+  line-height: 78px;
+}*/
+nav ul a{
+  padding: 0 25px;
+  color: #FFF;
+  font-size: 12px;
+}
+.navegacao{
+  background-color: white;
+}
+@media only screen and (max-width : 992px) {
+  .navegacao{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#652c90+50,56207b+99 */
+  background: rgb(101,44,144); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(101,44,144,1) 50%, rgba(86,32,123,1) 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(101,44,144,1) 50%,rgba(86,32,123,1) 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(101,44,144,1) 50%,rgba(86,32,123,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#652c90', endColorstr='#56207b',GradientType=0 ); /* IE6-9 */
+  }
+}
+
+.row{
+  padding: 10px 0;
+  margin: 0;
+  /*background-color: red;*/
+  }
+.titulo_pagina{
+  /*line-height: 78px;*/
+  padding: 0 30px;
+  /*margin: 0px;*/
+  font-size:24px;
+  color: grey;
+  font-weight:500;
+}
+@media only screen and (max-width : 992px) {
+  .titulo_pagina{
+    color: white;
+    padding: 0 15px;
+    font-weight:lighter;
+  }
+}
+@media only screen and (max-width : 601px) {
+  .titulo_pagina{
+    max-width: 38%;
+    font-size:18px;
+    padding: 0 15px;
+  }
+}
+
+
+
+.dropdown-content{
+  border-radius: 3px;
+  margin-top: 5px;
+}
+.dropdown-content a{
+  color: #616161;
+  font-size: 12px !important;
+  font-weight: normal;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+.menu_criar_btn{
+  background: #8cc63e;
+}
+.menu_criar_btn:hover{
+  background: #76aa35;
+}
+
+
+.userImg{
+  width:50px !important;
+  margin-top: 12%;
+  margin-right: 15px;
+  display:inline;
+  float: left;
+}
+
+
+.roxo_dark_1{
+  background: #4e266b !important;
+}
+.roxo_dark_2{
+  background: #411a59 !important;
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+#logo_iqmail{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#652c90+50,56207b+99 */
+  background: rgb(101,44,144); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(101,44,144,1) 50%, rgba(86,32,123,1) 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(101,44,144,1) 50%,rgba(86,32,123,1) 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(101,44,144,1) 50%,rgba(86,32,123,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#652c90', endColorstr='#56207b',GradientType=0 ); /* IE6-9 */
+
+  text-align: center;
+  padding:15px !important;
+  line-height:0;
+  vertical-align: middle;
+}
+#logo_iqmail svg{
+  width: 115px;
+}
+
+.side-nav a{
+  color: #FFF;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+a.button-collapse{
+  height: 56px;
+  line-height: 67px;
+  float: left;
+}
+
+
+.notificacoes_btn::after{
+  content: url("../images/alerta.svg");
+  font-size:12px;
+  float:left;
+  margin-top: 3px;
+  display:block;
+  z-index: 10;
+}
+.notificacao{
+  background-color: #ed1c24;
+  padding:0 6px 0 6px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  /*border: 2px solid #FFFFFF;*/
+  font-weight: 500;
+  line-height: 14px;
+  float: right;
+  margin-left: -10px;
+  margin-top: 24px;
+  z-index: 20;
+  position: relative;
+}
+#dropdown2 li{
+  border-bottom: 1px solid #eee !important;
+  min-height: initial !important;
+}
+#dropdown2 a{
+  padding: 6px 16px !important;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 14px;
+}
+.no-hover, .no-hover a{
+  cursor: default !important;
+}
+.no-hover, .no-hover a:hover{
+  transition: box-shadow .0s !important;
+  background-color: initial !important;
+}
+
+
+
+
+.dados_cliente{
+  font-size: 13px;
+  display: block;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 25px;
+
+}
+.dados_cliente::before{
+  content:"";
+  display: block;
+  width: 10px;
+  height: 30px;
+  border: 1px dashed #cccccc;
+  border-right: none;
+  position: absolute;
+  float: left;
+  margin: 10px 0 0 -16px;
+}
+
+
+.titulos_h4:after{
+  content:"";
+  background: purple;
+  width: 10%;
+  height: 2px;
+  margin-top: 5px;
+  display: block;
+}
+
+.last_campaing{
+  padding: 10px 0px 20px 0;
+  max-width: 500px
+}
+.last_campaing p{
+  font-size: 16px;
+}
+.last_campaing span{
+  font-size: 13px;
+}
+
+
+
+.card .card-content{
+  padding:0px 20px 20px 20px !important;
+}
+.card{
+  padding: 10px
+}
+.thumbnail {
+  position: relative;
+  width: 150px;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.thumbnail img.portrait {
+  width: 100%;
+  min-width: 70px;
+  height: auto;
+}
+
+
+
+.tabela_campanha{
+	width:100%;
+}
+.tabela_campanha .agenda_cancela{
+  text-align: center;
+}
+.tabela_campanha span{
+  font-size: 13px;
+}
+.tabela_campanha p{
+	font-size: 16px !important;
+  margin: 0px;
+}
+
+.tabela_campanha tr{
+
+}
+.tabela_campanha td{
+	padding:20px;
+}
+
+.icones-campanhas{
+  display:block;
+}
+.icones-campanhas a{
+  cursor: pointer;
+}
+.icones-campanhas i{
+  display:block;
+  padding:5px;
+  font-size:20px;
+  /*background: red;*/
+}
+.icones-campanhas .closed-table{
+  display:none;
+}
+
+@media only screen and (max-width : 600px) {
+  .icones-campanhas{
+    position: absolute;
+    left:0;
+    padding: 15px
+  }
+  .icones-campanhas .closed-table{
+    display:block;
+    font-size: 23px;
+  }
+  .tabela_campanha tr{
+  	display:inline-block;
+  	position:relative;
+    width: 100%;
+	}
+ .tabela_campanha td{
+	  display:block;
+    padding-left: 60px;
+    padding-top: 0px;
+	}
+  .tabela_campanha .agenda_cancela{
+    text-align: left;
+  }
+	.closed-table{
+  	display:none;
+	}
+}
+
+
+
+
+
+.ajuda-novato{
+  border: 2px dashed #e0e0e0;
+  border-radius: 7px;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  padding: 10% 20px;
+  margin: 20px 0;
+  font-size: 30px;
+  color:#bdbdbd;
+  background-color: #fafafa;
+}
+.ajuda-novato:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.ajuda-novato svg {
+  width: 20%;
+}
+.ajuda-novato path{
+  /*fill: red !important;*/
+}
+
+
+
+
+
+
+.filtro-modelo .indicator{
+  background-color: purple;
+}
+
+
+
+.termos_uso{
+  line-height: initial;
+  font-size: 12px;
+}

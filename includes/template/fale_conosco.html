@@ -1,0 +1,59 @@
+<section class="fw_100" id="contato">
+	<div class="t_box" id="fale_conosco_formulario">
+		<div class="col_1">
+			<h1 class="titulo_branco">FALE CONOSCO</h1>
+			<h2 class="sub_titulo_branco">Envia sua mensagem. Nossa equipe entrará em contato.</h2>
+		</div>
+
+		<form name="form_contato" id="form_contato" method="post">
+			<input name="opcao" value="formContato_send" type="hidden">
+			<input name="homeContato_categoria" id="formContato_categoria" value="" type="hidden">
+		
+			<div class="col_2">
+				<ul>
+					<li>
+						<span class="form_titulo">NOME *</span>
+						<input value="" name="formContato_nome" id="formContato_nome" type="text"  tabindex="5" class="form_input" required>
+					
+						<span class="form_titulo">E-MAIL *</span>
+						<input value="" name="formContato_email" id="formContato_email" type="email" tabindex="10" class="form_input" required>
+					
+						<span class="form_titulo">EMPRESA</span>
+						<input value="" name="formContato_empresa" id="formContato_empresa" type="text" tabindex="15" class="form_input">
+					
+						<span class="form_titulo">TELEFONE *</span>
+						<input value="" name="formContato_telefone" id="formContato_telefone" type="tel" tabindex="20" autocomplete="on" class="form_input" required>
+					</li>
+					<li>
+						<span class="form_titulo">MENSAGEM</span>
+						<textarea class="form_textarea" name="formContato_mensagem" tabindex="25"></textarea>
+						<div id="js-g-recaptcha" class="g-recaptcha" data-sitekey="6LcNkh8TAAAAAJLQ2KoDXg8FqGBP2f_UoUG0mi0h"></div>
+						<br>
+						<input value="ENVIAR" name="" id="btnEnviarFormContato" type="submit" class="form_enviar" required>
+					</li>
+				</ul>
+			</div>
+		</form>
+	</div>
+	
+	
+	<div class="t_box" id="fale_conosco_telefone">
+		<div class="col_1">
+			<h1 class="titulo_branco">FALE CONOSCO</h1>
+			<a href="tel:2139588730" target="_top">
+			<div class="col_2" id="fale_conosco_telefone_box">
+				<ul>
+					<li>
+						<img src="/includes/images/telefone_ligar.png" style="width:100%; max-width:200px;">
+					</li>
+					<li>
+						<h2 class="sub_titulo_branco">Entre em contato com a nossa central de atendimento.</h2>
+					</li>
+				</ul>
+				<span class="horario_ligacao">Horário de funcionamento das 10 às 18</span>
+			</div>
+			
+			</a>
+		</div>
+	</div>
+</section>

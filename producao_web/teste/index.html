@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>iqTRETA</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="http://cdn.materialdesignicons.com/1.7.22/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+</head>
+
+<body onload="carregar()">
+
+<div class="preload center" id="preload">
+  <div class="preload_middle">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="157.354px" height="53.182px" viewBox="0 0 157.354 53.182" enable-background="new 0 0 157.354 53.182" xml:space="preserve">
+      <g>
+        <g>
+          <g>
+            <rect x="0.751" y="11.196" fill="#652C90" width="7.793" height="28.572"/>
+            <path fill="#652C90" d="M68.312,18.988H57.897v20.78h-7.792V16.392c0-3.464,1.73-5.195,5.192-5.195h33.748
+              c3.461,0,5.191,1.731,5.191,5.195v23.377H86.47l-0.027-20.78H76.106v20.78h-7.794V18.988z"/>
+            <path fill="#652C90" d="M99.458,16.392c0-3.464,1.729-5.195,5.19-5.195h20.762c3.46,0,5.191,1.731,5.191,5.195v23.377h-7.767
+              l-0.026-20.78H107.25v12.988h12.971l-2.596,7.792h-12.951c-3.479,0-5.216-1.73-5.216-5.195V16.392z"/>
+            <rect x="135.823" y="11.196" fill="#652C90" width="7.792" height="28.572"/>
+            <path fill="#652C90" d="M148.81,39.769V0.807h7.793v38.962H148.81z"/>
+            <rect x="0.751" y="0.807" fill="#652C90" width="7.793" height="7.792"/>
+            <rect x="135.823" y="0.807" fill="#652C90" width="7.792" height="7.792"/>
+            <path fill="#652C90" d="M44.909,43.844V16.392c0-3.464-1.731-5.195-5.195-5.195h-20.78c-3.463,0-5.195,1.731-5.195,5.195v18.182
+              c0,3.465,1.732,5.195,5.195,5.195h12.988l2.596-7.792H21.532V18.988h15.585v33.387h8.532l2.597-8.531H44.909z M43.845,49.937
+              H39.58v-3.662h5.378L43.845,49.937z"/>
+          </g>
+          <g>
+            <path fill="#652C90" d="M55.169,47.418h3.225v0.546h-2.639v1.349h2.438v0.514h-2.438v1.507h2.684v0.529h-3.271V47.418z"/>
+            <path fill="#652C90" d="M59.973,47.418h0.863l1.279,3.758l1.268-3.758h0.856v4.444h-0.574v-2.623c0-0.091,0.001-0.24,0.006-0.451
+              c0.003-0.209,0.006-0.434,0.006-0.674l-1.27,3.748H61.81l-1.28-3.748v0.136c0,0.108,0.003,0.274,0.009,0.499
+              c0.005,0.222,0.008,0.385,0.008,0.49v2.623h-0.575V47.418z"/>
+            <path fill="#652C90" d="M67.19,47.418h0.68l1.613,4.444h-0.66l-0.463-1.33h-1.744l-0.482,1.33h-0.617L67.19,47.418z
+               M68.188,50.041l-0.684-1.964l-0.712,1.964H68.188z"/>
+            <path fill="#652C90" d="M70.905,47.418h0.609v4.444h-0.609V47.418z"/>
+            <path fill="#652C90" d="M73.233,47.418h0.603v3.915h2.229v0.529h-2.832V47.418z"/>
+            <path fill="#652C90" d="M79.647,47.418h0.862l1.278,3.758l1.268-3.758h0.858v4.444h-0.576v-2.623c0-0.091,0.002-0.24,0.006-0.451
+              c0.004-0.209,0.006-0.434,0.006-0.674l-1.269,3.748h-0.597l-1.28-3.748v0.136c0,0.108,0.003,0.274,0.009,0.499
+              c0.006,0.222,0.01,0.385,0.01,0.49v2.623h-0.575V47.418z"/>
+            <path fill="#652C90" d="M86.863,47.418h0.68l1.613,4.444h-0.658l-0.465-1.33H86.29l-0.482,1.33h-0.616L86.863,47.418z
+               M87.863,50.041l-0.686-1.964l-0.711,1.964H87.863z"/>
+            <path fill="#652C90" d="M90.515,47.418h2.021c0.332,0,0.605,0.05,0.822,0.148c0.409,0.189,0.615,0.54,0.615,1.05
+              c0,0.266-0.057,0.484-0.166,0.653s-0.264,0.306-0.461,0.409c0.173,0.069,0.305,0.164,0.391,0.277
+              c0.09,0.116,0.139,0.302,0.148,0.56l0.021,0.597c0.007,0.169,0.021,0.295,0.042,0.379c0.037,0.141,0.102,0.23,0.194,0.271v0.1
+              h-0.739c-0.02-0.039-0.035-0.088-0.047-0.148c-0.013-0.061-0.022-0.178-0.03-0.351l-0.036-0.741
+              c-0.014-0.29-0.119-0.485-0.316-0.584c-0.11-0.054-0.285-0.082-0.525-0.082h-1.332v1.906h-0.602V47.418z M92.471,49.454
+              c0.274,0,0.491-0.057,0.651-0.17c0.16-0.111,0.24-0.315,0.24-0.61c0-0.317-0.112-0.532-0.336-0.647
+              c-0.12-0.062-0.28-0.092-0.48-0.092h-1.43v1.52H92.471z"/>
+            <path fill="#652C90" d="M95.662,47.418h0.586v2.175l2.225-2.175h0.842l-1.899,1.794l1.937,2.65h-0.787l-1.592-2.232l-0.725,0.684
+              v1.549h-0.586V47.418z"/>
+            <path fill="#652C90" d="M100.595,47.418h3.225v0.546h-2.639v1.349h2.438v0.514h-2.438v1.507h2.684v0.529h-3.27V47.418z"/>
+            <path fill="#652C90" d="M108.644,47.418v0.529h-1.497v3.915h-0.608v-3.915h-1.498v-0.529H108.644z"/>
+            <path fill="#652C90" d="M110.078,47.418h0.609v4.444h-0.609V47.418z"/>
+            <path fill="#652C90" d="M112.407,47.418h0.708l2.218,3.591v-3.591h0.574v4.444h-0.677l-2.248-3.586v3.586h-0.575V47.418z"/>
+            <path fill="#652C90" d="M120.583,47.545c0.435,0.232,0.702,0.638,0.799,1.22h-0.596c-0.071-0.324-0.218-0.562-0.442-0.709
+              c-0.223-0.148-0.504-0.223-0.843-0.223c-0.403,0-0.741,0.154-1.018,0.462c-0.276,0.31-0.413,0.77-0.413,1.38
+              c0,0.529,0.113,0.959,0.34,1.291s0.599,0.498,1.113,0.498c0.393,0,0.718-0.117,0.977-0.35c0.258-0.233,0.389-0.61,0.395-1.13
+              h-1.391v-0.5h1.951v2.378h-0.387l-0.146-0.572c-0.199,0.225-0.377,0.379-0.533,0.467c-0.258,0.148-0.589,0.223-0.99,0.223
+              c-0.518,0-0.963-0.169-1.336-0.51c-0.406-0.428-0.611-1.015-0.611-1.762c0-0.744,0.201-1.336,0.598-1.775
+              c0.378-0.42,0.866-0.629,1.467-0.629C119.926,47.304,120.282,47.384,120.583,47.545z"/>
+            <path fill="#652C90" d="M126.045,50.428c0.014,0.252,0.071,0.458,0.172,0.614c0.192,0.295,0.531,0.442,1.017,0.442
+              c0.219,0,0.416-0.032,0.596-0.097c0.346-0.125,0.519-0.35,0.519-0.672c0-0.242-0.073-0.414-0.22-0.518
+              c-0.148-0.1-0.381-0.188-0.697-0.264l-0.584-0.135c-0.381-0.09-0.65-0.188-0.809-0.293c-0.273-0.187-0.41-0.464-0.41-0.833
+              c0-0.399,0.134-0.727,0.402-0.983c0.27-0.256,0.65-0.385,1.143-0.385c0.453,0,0.839,0.112,1.156,0.338
+              c0.316,0.227,0.476,0.584,0.476,1.079h-0.565c-0.029-0.239-0.092-0.421-0.188-0.548c-0.175-0.232-0.474-0.348-0.896-0.348
+              c-0.34,0-0.585,0.074-0.733,0.225c-0.148,0.146-0.223,0.32-0.223,0.52c0,0.217,0.086,0.377,0.262,0.478
+              c0.117,0.063,0.377,0.146,0.784,0.241l0.604,0.143c0.29,0.07,0.516,0.162,0.673,0.281c0.274,0.209,0.411,0.51,0.411,0.904
+              c0,0.494-0.175,0.846-0.523,1.057c-0.35,0.213-0.755,0.318-1.217,0.318c-0.54,0-0.962-0.142-1.266-0.424
+              c-0.306-0.281-0.455-0.66-0.449-1.142H126.045z"/>
+            <path fill="#652C90" d="M130.666,47.418h0.607v4.444h-0.607V47.418z"/>
+            <path fill="#652C90" d="M132.978,47.418h0.863l1.277,3.758l1.27-3.758h0.855v4.444h-0.574v-2.623c0-0.091,0.003-0.24,0.007-0.451
+              c0.003-0.209,0.007-0.434,0.007-0.674l-1.271,3.748h-0.597l-1.279-3.748v0.136c0,0.108,0.001,0.274,0.008,0.499
+              c0.005,0.222,0.009,0.385,0.009,0.49v2.623h-0.575V47.418z"/>
+            <path fill="#652C90" d="M138.955,47.418h1.99c0.393,0,0.711,0.111,0.952,0.334c0.241,0.224,0.362,0.537,0.362,0.94
+              c0,0.346-0.107,0.648-0.323,0.906c-0.216,0.257-0.546,0.386-0.989,0.386h-1.389v1.878h-0.604V47.418z M141.292,48.029
+              c-0.133-0.062-0.313-0.095-0.544-0.095h-1.189v1.541h1.189c0.27,0,0.486-0.057,0.652-0.174c0.168-0.113,0.252-0.316,0.252-0.607
+              C141.652,48.368,141.533,48.147,141.292,48.029z"/>
+            <path fill="#652C90" d="M143.775,47.418h0.602v3.915h2.229v0.529h-2.83V47.418z"/>
+            <path fill="#652C90" d="M148.021,47.418h3.226v0.546h-2.638v1.349h2.439v0.514h-2.439v1.507h2.683v0.529h-3.271V47.418z"/>
+            <path fill="#652C90" d="M153.234,50.428c0.013,0.252,0.07,0.458,0.172,0.614c0.193,0.295,0.531,0.442,1.017,0.442
+              c0.218,0,0.415-0.032,0.596-0.097c0.346-0.125,0.518-0.35,0.518-0.672c0-0.242-0.073-0.414-0.22-0.518
+              c-0.148-0.1-0.38-0.188-0.697-0.264l-0.583-0.135c-0.382-0.09-0.651-0.188-0.81-0.293c-0.273-0.187-0.41-0.464-0.41-0.833
+              c0-0.399,0.135-0.727,0.402-0.983c0.27-0.256,0.65-0.385,1.145-0.385c0.452,0,0.837,0.112,1.154,0.338
+              c0.316,0.227,0.477,0.584,0.477,1.079h-0.566c-0.029-0.239-0.092-0.421-0.186-0.548c-0.176-0.232-0.477-0.348-0.896-0.348
+              c-0.342,0-0.584,0.074-0.733,0.225c-0.149,0.146-0.224,0.32-0.224,0.52c0,0.217,0.088,0.377,0.264,0.478
+              c0.114,0.063,0.377,0.146,0.782,0.241l0.604,0.143c0.292,0.07,0.516,0.162,0.674,0.281c0.274,0.209,0.411,0.51,0.411,0.904
+              c0,0.494-0.174,0.846-0.523,1.057c-0.35,0.213-0.756,0.318-1.217,0.318c-0.54,0-0.962-0.142-1.266-0.424
+              c-0.307-0.281-0.455-0.66-0.449-1.142H153.234z"/>
+          </g>
+        </g>
+      </g>
+    </svg>
+    <br><br><br>
+    Preparando ambiente.<br><br>
+    <div class="progress" style="max-width:200px; background-color:lightgray; margin:0 auto;">
+      <div class="indeterminate" style="background-color:purple;"></div>
+  </div>
+  </div>
+</div>
+
+
+<header>
+  <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only grey-text text-darken-2"><i class="material-icons white-text">menu</i></a></div>
+
+  <ul id="nav-mobile" class="side-nav fixed roxo_dark_1" style="transform: translateX(0%);">
+    <!-- <li class="logo"><a id="logo-container" href="http://materializecss.com/" class="brand-logo">
+        <object id="front-page-logo" type="image/svg+xml" data="res/materialize.svg">asdaskhjdga</object></a>
+    </li> -->
+    <li class="no-padding" id="logo_iqmail">
+      <a href="index.html">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="157.354px" height="53.182px" viewBox="0 0 157.354 53.182" enable-background="new 0 0 157.354 53.182" xml:space="preserve">
+        <g>
+          <g>
+            <g>
+              <rect x="0.751" y="11.196" fill="#FFFFFF" width="7.793" height="28.572"/>
+              <path fill="#FFFFFF" d="M68.312,18.988H57.897v20.78h-7.792V16.392c0-3.464,1.73-5.195,5.192-5.195h33.748
+                c3.461,0,5.191,1.731,5.191,5.195v23.377H86.47l-0.027-20.78H76.106v20.78h-7.794V18.988z"/>
+              <path fill="#FFFFFF" d="M99.458,16.392c0-3.464,1.729-5.195,5.19-5.195h20.762c3.46,0,5.191,1.731,5.191,5.195v23.377h-7.767
+                l-0.026-20.78H107.25v12.988h12.971l-2.596,7.792h-12.951c-3.479,0-5.216-1.73-5.216-5.195V16.392z"/>
+              <rect x="135.823" y="11.196" fill="#FFFFFF" width="7.792" height="28.572"/>
+              <path fill="#FFFFFF" d="M148.81,39.769V0.807h7.793v38.962H148.81z"/>
+              <rect x="0.751" y="0.807" fill="#FFFFFF" width="7.793" height="7.792"/>
+              <rect x="135.823" y="0.807" fill="#FFFFFF" width="7.792" height="7.792"/>
+              <path fill="#FFFFFF" d="M44.909,43.844V16.392c0-3.464-1.731-5.195-5.195-5.195h-20.78c-3.463,0-5.195,1.731-5.195,5.195v18.182
+                c0,3.465,1.732,5.195,5.195,5.195h12.988l2.596-7.792H21.532V18.988h15.585v33.387h8.532l2.597-8.531H44.909z M43.845,49.937
+                H39.58v-3.662h5.378L43.845,49.937z"/>
+            </g>
+            <g>
+              <path fill="#FFFFFF" d="M55.169,47.418h3.225v0.546h-2.639v1.349h2.438v0.514h-2.438v1.507h2.684v0.529h-3.271V47.418z"/>
+              <path fill="#FFFFFF" d="M59.973,47.418h0.863l1.279,3.758l1.268-3.758h0.856v4.444h-0.574v-2.623c0-0.091,0.001-0.24,0.006-0.451
+                c0.003-0.209,0.006-0.434,0.006-0.674l-1.27,3.748H61.81l-1.28-3.748v0.136c0,0.108,0.003,0.274,0.009,0.499
+                c0.005,0.222,0.008,0.385,0.008,0.49v2.623h-0.575V47.418z"/>
+              <path fill="#FFFFFF" d="M67.19,47.418h0.68l1.613,4.444h-0.66l-0.463-1.33h-1.744l-0.482,1.33h-0.617L67.19,47.418z
+                 M68.188,50.041l-0.684-1.964l-0.712,1.964H68.188z"/>
+              <path fill="#FFFFFF" d="M70.905,47.418h0.609v4.444h-0.609V47.418z"/>
+              <path fill="#FFFFFF" d="M73.233,47.418h0.603v3.915h2.229v0.529h-2.832V47.418z"/>
+              <path fill="#FFFFFF" d="M79.647,47.418h0.862l1.278,3.758l1.268-3.758h0.858v4.444h-0.576v-2.623c0-0.091,0.002-0.24,0.006-0.451
+                c0.004-0.209,0.006-0.434,0.006-0.674l-1.269,3.748h-0.597l-1.28-3.748v0.136c0,0.108,0.003,0.274,0.009,0.499
+                c0.006,0.222,0.01,0.385,0.01,0.49v2.623h-0.575V47.418z"/>
+              <path fill="#FFFFFF" d="M86.863,47.418h0.68l1.613,4.444h-0.658l-0.465-1.33H86.29l-0.482,1.33h-0.616L86.863,47.418z
+                 M87.863,50.041l-0.686-1.964l-0.711,1.964H87.863z"/>
+              <path fill="#FFFFFF" d="M90.515,47.418h2.021c0.332,0,0.605,0.05,0.822,0.148c0.409,0.189,0.615,0.54,0.615,1.05
+                c0,0.266-0.057,0.484-0.166,0.653s-0.264,0.306-0.461,0.409c0.173,0.069,0.305,0.164,0.391,0.277
+                c0.09,0.116,0.139,0.302,0.148,0.56l0.021,0.597c0.007,0.169,0.021,0.295,0.042,0.379c0.037,0.141,0.102,0.23,0.194,0.271v0.1
+                h-0.739c-0.02-0.039-0.035-0.088-0.047-0.148c-0.013-0.061-0.022-0.178-0.03-0.351l-0.036-0.741
+                c-0.014-0.29-0.119-0.485-0.316-0.584c-0.11-0.054-0.285-0.082-0.525-0.082h-1.332v1.906h-0.602V47.418z M92.471,49.454
+                c0.274,0,0.491-0.057,0.651-0.17c0.16-0.111,0.24-0.315,0.24-0.61c0-0.317-0.112-0.532-0.336-0.647
+                c-0.12-0.062-0.28-0.092-0.48-0.092h-1.43v1.52H92.471z"/>
+              <path fill="#FFFFFF" d="M95.662,47.418h0.586v2.175l2.225-2.175h0.842l-1.899,1.794l1.937,2.65h-0.787l-1.592-2.232l-0.725,0.684
+                v1.549h-0.586V47.418z"/>
+              <path fill="#FFFFFF" d="M100.595,47.418h3.225v0.546h-2.639v1.349h2.438v0.514h-2.438v1.507h2.684v0.529h-3.27V47.418z"/>
+              <path fill="#FFFFFF" d="M108.644,47.418v0.529h-1.497v3.915h-0.608v-3.915h-1.498v-0.529H108.644z"/>
+              <path fill="#FFFFFF" d="M110.078,47.418h0.609v4.444h-0.609V47.418z"/>
+              <path fill="#FFFFFF" d="M112.407,47.418h0.708l2.218,3.591v-3.591h0.574v4.444h-0.677l-2.248-3.586v3.586h-0.575V47.418z"/>
+              <path fill="#FFFFFF" d="M120.583,47.545c0.435,0.232,0.702,0.638,0.799,1.22h-0.596c-0.071-0.324-0.218-0.562-0.442-0.709
+                c-0.223-0.148-0.504-0.223-0.843-0.223c-0.403,0-0.741,0.154-1.018,0.462c-0.276,0.31-0.413,0.77-0.413,1.38
+                c0,0.529,0.113,0.959,0.34,1.291s0.599,0.498,1.113,0.498c0.393,0,0.718-0.117,0.977-0.35c0.258-0.233,0.389-0.61,0.395-1.13
+                h-1.391v-0.5h1.951v2.378h-0.387l-0.146-0.572c-0.199,0.225-0.377,0.379-0.533,0.467c-0.258,0.148-0.589,0.223-0.99,0.223
+                c-0.518,0-0.963-0.169-1.336-0.51c-0.406-0.428-0.611-1.015-0.611-1.762c0-0.744,0.201-1.336,0.598-1.775
+                c0.378-0.42,0.866-0.629,1.467-0.629C119.926,47.304,120.282,47.384,120.583,47.545z"/>
+              <path fill="#FFFFFF" d="M126.045,50.428c0.014,0.252,0.071,0.458,0.172,0.614c0.192,0.295,0.531,0.442,1.017,0.442
+                c0.219,0,0.416-0.032,0.596-0.097c0.346-0.125,0.519-0.35,0.519-0.672c0-0.242-0.073-0.414-0.22-0.518
+                c-0.148-0.1-0.381-0.188-0.697-0.264l-0.584-0.135c-0.381-0.09-0.65-0.188-0.809-0.293c-0.273-0.187-0.41-0.464-0.41-0.833
+                c0-0.399,0.134-0.727,0.402-0.983c0.27-0.256,0.65-0.385,1.143-0.385c0.453,0,0.839,0.112,1.156,0.338
+                c0.316,0.227,0.476,0.584,0.476,1.079h-0.565c-0.029-0.239-0.092-0.421-0.188-0.548c-0.175-0.232-0.474-0.348-0.896-0.348
+                c-0.34,0-0.585,0.074-0.733,0.225c-0.148,0.146-0.223,0.32-0.223,0.52c0,0.217,0.086,0.377,0.262,0.478
+                c0.117,0.063,0.377,0.146,0.784,0.241l0.604,0.143c0.29,0.07,0.516,0.162,0.673,0.281c0.274,0.209,0.411,0.51,0.411,0.904
+                c0,0.494-0.175,0.846-0.523,1.057c-0.35,0.213-0.755,0.318-1.217,0.318c-0.54,0-0.962-0.142-1.266-0.424
+                c-0.306-0.281-0.455-0.66-0.449-1.142H126.045z"/>
+              <path fill="#FFFFFF" d="M130.666,47.418h0.607v4.444h-0.607V47.418z"/>
+              <path fill="#FFFFFF" d="M132.978,47.418h0.863l1.277,3.758l1.27-3.758h0.855v4.444h-0.574v-2.623c0-0.091,0.003-0.24,0.007-0.451
+                c0.003-0.209,0.007-0.434,0.007-0.674l-1.271,3.748h-0.597l-1.279-3.748v0.136c0,0.108,0.001,0.274,0.008,0.499
+                c0.005,0.222,0.009,0.385,0.009,0.49v2.623h-0.575V47.418z"/>
+              <path fill="#FFFFFF" d="M138.955,47.418h1.99c0.393,0,0.711,0.111,0.952,0.334c0.241,0.224,0.362,0.537,0.362,0.94
+                c0,0.346-0.107,0.648-0.323,0.906c-0.216,0.257-0.546,0.386-0.989,0.386h-1.389v1.878h-0.604V47.418z M141.292,48.029
+                c-0.133-0.062-0.313-0.095-0.544-0.095h-1.189v1.541h1.189c0.27,0,0.486-0.057,0.652-0.174c0.168-0.113,0.252-0.316,0.252-0.607
+                C141.652,48.368,141.533,48.147,141.292,48.029z"/>
+              <path fill="#FFFFFF" d="M143.775,47.418h0.602v3.915h2.229v0.529h-2.83V47.418z"/>
+              <path fill="#FFFFFF" d="M148.021,47.418h3.226v0.546h-2.638v1.349h2.439v0.514h-2.439v1.507h2.683v0.529h-3.271V47.418z"/>
+              <path fill="#FFFFFF" d="M153.234,50.428c0.013,0.252,0.07,0.458,0.172,0.614c0.193,0.295,0.531,0.442,1.017,0.442
+                c0.218,0,0.415-0.032,0.596-0.097c0.346-0.125,0.518-0.35,0.518-0.672c0-0.242-0.073-0.414-0.22-0.518
+                c-0.148-0.1-0.38-0.188-0.697-0.264l-0.583-0.135c-0.382-0.09-0.651-0.188-0.81-0.293c-0.273-0.187-0.41-0.464-0.41-0.833
+                c0-0.399,0.135-0.727,0.402-0.983c0.27-0.256,0.65-0.385,1.145-0.385c0.452,0,0.837,0.112,1.154,0.338
+                c0.316,0.227,0.477,0.584,0.477,1.079h-0.566c-0.029-0.239-0.092-0.421-0.186-0.548c-0.176-0.232-0.477-0.348-0.896-0.348
+                c-0.342,0-0.584,0.074-0.733,0.225c-0.149,0.146-0.224,0.32-0.224,0.52c0,0.217,0.088,0.377,0.264,0.478
+                c0.114,0.063,0.377,0.146,0.782,0.241l0.604,0.143c0.292,0.07,0.516,0.162,0.674,0.281c0.274,0.209,0.411,0.51,0.411,0.904
+                c0,0.494-0.174,0.846-0.523,1.057c-0.35,0.213-0.756,0.318-1.217,0.318c-0.54,0-0.962-0.142-1.266-0.424
+                c-0.307-0.281-0.455-0.66-0.449-1.142H153.234z"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+      </a>
+    </li>
+    <li class="no-padding">
+      <a class="collapsible-header  waves-effect waves-light"><i class="material-icons left">store</i>Home</a>
+    </li>
+    <li class="no-padding">
+      <a class="collapsible-header  waves-effect waves-light"><i class="material-icons left">list</i>Campanhas de  E-mail</a>
+    </li>
+    <li class="no-padding">
+      <a class="collapsible-header  waves-effect waves-light"><i class="material-icons left">view_quilt</i>Modelos</a>
+    </li>
+    <li class="no-padding">
+      <a class="collapsible-header  waves-effect waves-light"><i class="material-icons left">supervisor_account</i>Contatos</a>
+    </li>
+    <li class="no-padding">
+      <a class="collapsible-header  waves-effect waves-light"><i class="material-icons left">equalizer</i>Relatórios</a>
+    </li>
+    <li class="no-padding">
+      <a class="collapsible-header  waves-effect waves-light"><i class="material-icons left">settings</i>Ferramentas</a>
+    </li>
+    <li class="no-padding">
+      <a class="collapsible-header  waves-effect waves-light"><i class="material-icons left">receipt</i>Créditos</a>
+    </li>
+
+    <li><div class="divider" style="background-color:#411a59;"></div></li>
+
+    <li class="no-padding">
+      <ul class="collapsible collapsible-accordion">
+        <li class="bold"><a class="collapsible-header  waves-effect waves-light"><i class="material-icons left">lock_open</i>ADMIN<i class="tiny material-icons right">expand_more</i></a>
+          <div class="collapsible-body roxo_dark_2">
+            <ul>
+              <li><a href="#!">Ger. Clientes</a></li>
+              <li><a href="#!">Ger. Metas</a></li>
+              <li><a href="#!">Ger. Categorias</a></li>
+              <li><a href="#!">Ger. Templates</a></li>
+              <li><a href="#!">Ger. Preços</a></li>
+              <li><a href="#!">Ger. Promoção</a></li>
+              <li><a href="#!">Ger. Cupons</a></li>
+              <li><a href="#!">Ger. Régua de CRM</a></li>
+              <li><a href="#!">Ger. Campanhas</a></li>
+              <li><a href="#!">Ger. Atacado</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</header>
+
+<main class="grey lighten-4">
+
+<nav class="navegacao">
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">Importar Contatos</a></li>
+    <li><a href="#!">Criar Modelo</a></li>
+    <li class="divider"></li>
+    <li><a href="#!" class="menu_criar_btn white-text">Criar Campanha</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li class="no-hover">
+      <a href="#!">
+        <span><b style="font-size:13px;">Notificações</b>
+        <span class="red-text text-darken-3 right">&bull;Urgente&nbsp;&nbsp;</span>
+        <span class="yellow-text text-darken-2 right">&bull;Alta&nbsp;&nbsp;</span>
+        <span class="light-green-text right">&bull;Normal&nbsp;&nbsp;</span>
+      </a>
+    </li>
+    <li><a href="#!"><i class="material-icons left tiny light-green-text">fiber_manual_record</i>Verificação de conta necessáriaV erificação de conta necessária.</a></li>
+    <li><a href="#!"><i class="material-icons left tiny red-text text-darken-2">fiber_manual_record</i>Verificação de conta necessária.</a></li>
+    <li><a href="#!"><i class="material-icons left tiny yellow-text text-darken-2">fiber_manual_record</i>Verificação de conta necessária.</a></li>
+    <li><a href="#!"><i class="material-icons left tiny">check</i>Verificação de conta necessária.</a></li>
+    <li><a href="#!"><i class="material-icons left tiny red-text text-darken-2">fiber_manual_record</i>Verificação de conta necessária.</a></li>
+    <li><a href="#!" class="grey lighten-2 white-text grey-text text-darken-2">VER MAIS &rsaquo;</a></li>
+  </ul>
+  <ul id="dropdown3" class="dropdown-content">
+    <li class="no-hover">
+      <div style="padding:15px 15px;">
+        <span class="dados_cliente">
+          Créditos:<span class="purple-text text-darken-2">1.023</span>
+          <br>
+          Validade:<span class="purple-text text-darken-2">23/12/2015</span>
+      </span>
+    </div>
+    </li>
+    <li class="divider"></li>
+    <li><a href="#!"><i class="material-icons left">account_box</i>Minha Conta</a></li>
+    <li class="divider"></li>
+    <li><a href="#!"><i class="material-icons left">assignment</i>Extrato de Conta</a></li>
+    <li class="divider"></li>
+    <li><a href="#!"><i class="material-icons left red-text text-darken-2">exit_to_app</i>Sair</a></li>
+  </ul>
+  <div class="nav-wrapper">
+    <span class="titulo_pagina truncate left">Home</span>
+
+
+
+    <ul class="right">
+      <li>
+        <a class="dropdown-button grey-text text-darken-2 hide-on-med-and-down" href="#!" data-activates="dropdown3">
+          <img class="circle userImg" src="http://media.gunaxin.com/wp-content/uploads/2016/06/Maverick-300x300.jpg"><b>TOP GUN</b><i class="tiny material-icons right">expand_more</i>
+        </a>
+        <!-- <a class="dropdown-button grey-text text-darken-2 user_menu_responsivo" href="#!" data-activates="dropdown3">
+          &nbsp;
+          <span>...</span>
+        </a> -->
+        <a class="dropdown-button grey-text text-darken-2 hide-on-large-only" href="#!" data-activates="dropdown3">
+            <i class="material-icons white-text">more_vert</i>
+        </a>
+      </li>
+    </ul>
+
+    <ul class="right">
+      <li>
+        <a class="dropdown-button purple-text text-darken-4 notificacoes_btn" href="#!" data-activates="dropdown2">
+          &nbsp;
+          <span class="notificacao white-text">12</span>
+        </a>
+      </li>
+    </ul>
+
+    <ul class="left">
+      <li><a class="dropdown-button purple-text text-darken-4 novo_btn hide-on-med-and-down" href="#!" data-activates="dropdown1"><i class="material-icons tiny left" style="margin-right:5px;">add</i><b>NOVO</b></a></li>
+    </ul>
+  </div>
+
+
+</nav>
+
+
+<div class="container">
+  <!--  Outer row  -->
+  <br>
+
+  <div class="row" id="ultimos_envios">
+      <div class="col s12"><h4 class="grey-text text-darken-2 ">ÚLTIMAS CAMPANHAS ENVIADAS</h4></div>
+
+      <div class="col s12 m6">
+        <div class="last_campaing">
+          <p class="purple-text purple-text text-darken-2"><b>Parceria Febeus e Connection Line.</b></p>
+
+          <span class="grey-text text-darken-2">Allianz Seguros</span><br>
+          <span class="grey-text text-darken-2">HTML livre</span><br>
+          <span class="grey-text text-darken-2">2015_11_03-Campanha_Alliadoz (5.310)</span><br>
+          <span class="grey-text text-darken-2">06/11/2015</span>
+          <span class="grey-text text-darken-2" style="margin-left:40px;">id=323096</span>
+
+          <br><br>
+
+          <span class="grey-text text-darken-2 left"><b>1.904</b> abriram</span>
+          <span class="purple-text text-darken-2 right"><b>70%</b></span>
+          <div class="progress" style="height:10px;">
+            <div class="determinate light-green" style="width: 70%;"></div>
+          </div>
+
+          <span class="grey-text text-darken-2 left"><b>286</b> clicaram</span>
+          <span class="purple-text text-darken-2 right"><b>30%</b></span>
+          <div class="progress" style="height:10px;">
+            <div class="determinate light-blue" style="width: 30%;"></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col s12 m6">
+        <div class="last_campaing">
+          <p class="purple-text purple-text text-darken-2"><b>Parceria Febeus e Connection Line.</b></p>
+
+          <span class="grey-text text-darken-2">Allianz Seguros</span><br>
+          <span class="grey-text text-darken-2">HTML livre</span><br>
+          <span class="grey-text text-darken-2">2015_11_03-Campanha_Alliadoz (5.310)</span><br>
+          <span class="grey-text text-darken-2">06/11/2015</span>
+          <span class="grey-text text-darken-2" style="margin-left:40px;">id=323096</span>
+
+          <br><br>
+
+          <span class="grey-text text-darken-2 left"><b>1.904</b> abriram</span>
+          <span class="purple-text text-darken-2 right"><b>70%</b></span>
+          <div class="progress" style="height:10px;">
+            <div class="determinate light-green" style="width: 70%;"></div>
+          </div>
+
+          <span class="grey-text text-darken-2 left"><b>286</b> clicaram</span>
+          <span class="purple-text text-darken-2 right"><b>30%</b></span>
+          <div class="progress" style="height:10px;">
+            <div class="determinate light-blue" style="width: 30%;"></div>
+          </div>
+
+        </div>
+      </div>
+      <br>
+      <a href="relatorio.html" class="waves-effect waves-light btn purple darken-3"><i class="material-icons right">navigate_next</i>Ver Relatórios</a>
+
+  </div>
+
+  <br>
+
+  <div class="row" id="banner">
+      <div class="col s12 center">
+        <img src="images/banner-exemplo.jpg" style="width:100%; max-width:728px;">
+      </div>
+    </div>
+
+  <br>
+
+  <div class="row" id="ultimas_campanhas">
+
+    <div class="col s12"><h4 class="grey-text text-darken-2">ÚLTIMAS CAMPANHAS</h4></div>
+    <br>
+    <table class="tabela_campanha bordered">
+      <tr>
+        <td class="center">
+
+          <div id="modal3" class="modal bottom-sheet" style="z-index: 1003; display: none; opacity: 0; bottom: -100%;">
+          <div class="modal-content left-align" style="padding:0;">
+            <ul style="margin:0px !important;">
+              <li class="no-padding">
+                <a class="collapsible-header waves-effect grey-text text-darken-2"><i class="material-icons left">edit</i>Editar</a>
+              </li>
+              <li class="no-padding">
+                <a class="collapsible-header waves-effect grey-text text-darken-2"><i class="material-icons left">content_copy</i>Duplicar</a>
+              </li>
+              <li class="no-padding">
+                <a class="collapsible-header waves-effect grey-text text-darken-2"><i class="material-icons left">send</i>Enviar Teste</a>
+              </li>
+              <li class="no-padding">
+                <a class="collapsible-header waves-effect grey-text text-darken-2"><i class="material-icons left">delete_forever</i>Excluir</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+          <div class="icones-campanhas hide-on-med-and-up">
+            <a href="#modal3"><i class="material-icons grey-text text-darken-2">expand_more</i></a>
+          </div>
+          <div class="icones-campanhas hide-on-small-only">
+            <a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Editar"><i class="material-icons grey-text text-darken-2">edit</i></a>
+            <a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Duplicar"><i class="material-icons grey-text text-darken-2">content_copy</i></a>
+            <a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Enviar Teste"><i class="material-icons grey-text text-darken-2">send</i></a>
+            <!-- <i class="material-icons grey-text text-darken-2 hide-on-med-and-up">delete_forever</i> -->
+          </div>
+        </td>
+    		<td>
+          <p class="purple-text text-darken-2"><b>Parceria Febeus asbd  osdg fdgs fjhkgas dzé.</b></p>
+    			<span class="grey-text text-darken-2">Aldivanz Seguros</span><br>
+    			<span class="grey-text text-darken-2">HTML divvre</span><br>
+    			<span class="grey-text text-darken-2">2015_11_03-Campanha_Aldivadoz</span>
+    		</td>
+    		<td>
+    			<span class="grey-text text-darken-2">06/11/2015</span>
+    			<br>
+    			<span class="grey-text text-darken-2">id=323096</span>
+    		</td>
+    		<td class="agenda_cancela">
+    			<a class="waves-effect waves-light light-green btn">AGENDAR AGORA</a>
+    		</td>
+    		<td class="center">
+          <div class="icones-campanhas hide-on-small-only">
+    			     <a class="tooltipped" data-position="left" data-delay="50" data-tooltip="Excluir"><i class="material-icons center grey-text text-darken-2 hide-on-small-only">delete_forever</i></a>
+          </div>
+    		</td>
+    	</tr>
+      <tr>
+        <td class="center">
+          <div class="icones-campanhas hide-on-med-and-up">
+            <a href="#modal3"><i class="material-icons grey-text text-darken-2">expand_more</i></a>
+          </div>
+          <div class="icones-campanhas hide-on-small-only">
+            <a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Editar"><i class="material-icons grey-text text-darken-2">edit</i></a>
+            <a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Duplicar"><i class="material-icons grey-text text-darken-2">content_copy</i></a>
+            <a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Enviar Teste"><i class="material-icons grey-text text-darken-2">send</i></a>
+            <!-- <i class="material-icons grey-text text-darken-2 hide-on-med-and-up">delete_forever</i> -->
+          </div>
+        </td>
+    		<td>
+          <p class="purple-text text-darken-2"><b>Parceria Febeus asbd  osdg fdgs fjhkgas dzé.</b></p>
+    			<span class="grey-text text-darken-2">Aldivanz Seguros</span><br>
+    			<span class="grey-text text-darken-2">HTML divvre</span><br>
+    			<span class="grey-text text-darken-2">2015_11_03-Campanha_Aldivadoz</span>
+    		</td>
+    		<td>
+    			<span class="grey-text text-darken-2">06/11/2015</span>
+    			<br>
+    			<span class="grey-text text-darken-2">id=323096</span>
+    		</td>
+    		<td class="agenda_cancela">
+          <i class="material-icons tiny grey-text text-darken-2">date_range</i><span class="grey-text text-darken-2">12/06/2016</span>&nbsp;&nbsp;<i class="material-icons tiny grey-text text-darken-2">access_alarm</i><span class="grey-text text-darken-2">15:30</span>
+          <br>
+    			<a class="waves-effect waves-light red darken-1 btn">CANCELAR ENVIO</a>
+    		</td>
+    		<td class="center">
+          <div class="icones-campanhas hide-on-small-only">
+    			     <a class="tooltipped" data-position="left" data-delay="50" data-tooltip="Excluir"><i class="material-icons center grey-text text-darken-2 hide-on-small-only">delete_forever</i></a>
+          </div>
+    		</td>
+    	</tr>
+    </table>
+    <br>
+    <a class="waves-effect waves-light btn purple darken-3"><i class="material-icons right">navigate_next</i>Ver Campanhas</a>
+
+  </div>
+
+  <br>
+
+  <div class="row" id="novidades">
+      <div class="col s12"><h4 class="grey-text text-darken-2">NOVIDADES</h4></div>
+
+      <div class="col s12 m6 l4">
+
+        <div class="card horizontal">
+          <div class="thumbnail">
+            <img src="images/template-exemplo.jpg" class="portrait materialboxed" alt="Image" />
+          </div>
+
+          <!-- <div class="card-image">
+            <img src="images/template-exemplo.jpg">
+          </div> -->
+          <div class="card-stacked">
+            <div class="card-content">
+              <p class="grey-text text-darken-2" style="font-size:18px;">Dia dos Namorados</p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light light-green btn right">Usar Modelo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col s12 m6 l4">
+
+        <div class="card horizontal">
+          <div class="thumbnail">
+            <img src="images/template-exemplo.jpg" class="portrait materialboxed" alt="Image" />
+          </div>
+
+          <!-- <div class="card-image">
+            <img src="images/template-exemplo.jpg">
+          </div> -->
+          <div class="card-stacked">
+            <div class="card-content">
+              <p class="grey-text text-darken-2" style="font-size:18px;">Dia dos Namorados</p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light light-green btn right">Usar Modelo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col s12 m6 l4">
+
+        <div class="card horizontal">
+          <div class="thumbnail">
+            <img src="images/template-exemplo.jpg" class="portrait materialboxed" alt="Image" />
+          </div>
+
+          <!-- <div class="card-image">
+            <img src="images/template-exemplo.jpg">
+          </div> -->
+          <div class="card-stacked">
+            <div class="card-content">
+              <p class="grey-text text-darken-2" style="font-size:18px;">Dia dos Namorados</p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light light-green btn right">Usar Modelo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- <div class="col s6 m4 l3">
+
+        <div class="card small">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/template-exemplo.jpg">
+          </div>
+          <div class="card-content">
+            <p class="grey-text text-darken-4" style="font-size:18px;"><b>Template Dia dos Namorados</b></p>
+            <a class="waves-effect waves-light btn">Usar Modelo</a>
+
+          </div>
+
+        </div>
+
+      </div> -->
+
+
+      <div class="col s12 m12 l12">
+        <br>
+        <a href="modelos.html" class="waves-effect waves-light btn purple darken-3"><i class="material-icons right">navigate_next</i>Ver Modelos</a>
+      </div>
+    </div>
+    <br>
+</div> <!-- End Container -->
+
+</main>
+
+
+
+<footer class="page-footer grey">
+  <div class="footer-copyright">
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4 class="grey-text text-darken-2">Termos e condições de uso do IQmail</h4>
+
+          <div class="termos_uso">
+          <br>
+          <p>1. Uso</p>
+          <p>O IQ Mail convida-o a visitar o seu   site&nbsp;<a href="http://%28www.iqmail.com.br%29" target="_blank"><u>(www.iqmail.com.br)&nbsp;</u></a>e lhe informa os Termos e Condições que regem   o uso do mesmo e de seus serviços disponíveis. Ao registrar-se no   site, você estará declarando ter ciência do presente contrato de   adesão, estará concordando com todas as cláusulas e condições aqui   dispostas, e poderá acessar e utilizar todos os serviços do IQ Mail.</p>
+          <p>2. Serviço</p>
+          <p>O serviço prestado pelo IQ Mail constitui-se   de uma ferramenta de envio e gerenciamento de campanhas de e-mail marketing,   onde membros cadastrados podem criar, lançar e administrar campanhas   publicitárias online, divulgando seus produtos e serviços através   do envio de mensagens personalizadas, bem como formatar seu banco de   contatos de acordo com características pessoais de seus clientes e   associados.</p>
+          <p>3. Quem pode utilizar os serviços</p>
+          <p>Os serviços estão disponíveis somente   a pessoas que podem, legalmente, contratar, por exemplo, se você&nbsp;  não possui 18 (dezoito) anos, você não está qualificado e não possui   permissão para usar nossos serviços. Os serviços do IQ Mail permitem   que além das grandes empresas, Web Sites corporativos, Web Sites de   pequenos negócios e Web Sites comunitários possam desenvolver e executar   e-mail marketing a fim de se comunicarem com seus visitantes.</p>
+          <p>4. Características do Serviço</p>
+          <p>O IQ Mail oferece, gratuitamente, àqueles   que nunca utilizaram os seus serviços, uma quantidade limitada de créditos,   a qual figura como uma amostra grátis, a fim de incentivar novos clientes   a experimentarem seus serviços. Os serviços do IQ Mail estarão sujeitos   ao pagamento de valores ("Serviços Pagos”). Neste caso, você   poderá comprar um dos planos referentes aos Serviços Pagos disponíveis   pelo IQ Mail. O acesso aos serviços do IQ Mail ficará indisponível   até o recebimento do pagamento. Os Serviços Pagos do IQ Mail podem   ser comprados através boleto, exceto para comprar parceladas e cartão   de crédito conforme as bandeiras mostradas no momento da compra. A   promoção de amostras grátis poderá sofrer alterações a qualquer   momento, assim como a tabela de valores, preços e faixas de contatos,   a critério do IQ Mail, podendo haver, inclusive, a supressão total   do oferecimento de créditos gratuitos. Os valores pagos não serão   devolvidos em nenhuma hipótese.</p>
+          <p>5. Formas de Prestação do Serviço</p>
+          <p>Os serviços prestados pelo IQ Mail   podem ser realizados em escolhas de planos mensais (1mês), trimestrais   (3 meses), semestrais (6 meses) e anuais (12 meses).</p>
+          <p>Para compras a vista nos planos trimestral,   semestral e anua, há um desconto de 5%, 10% e 20% respectivamente.</p>
+          <p>Os créditos serão depositados na   conta integral, caindo assim os envios totais referente aos envios e   plano escolhido. Os créditos não expiram podendo então usar o residual   nos próximos meses.</p>
+          <p>6. Pagamento</p>
+          <p>O próprio usuário fará&nbsp;a compra   online podendo escolher o plano que mais se adéqüe as suas necesidades.   Dentro de sua conta do IQ Mail, haverá&nbsp;todas as opções de planos,   após a escolha do plano será&nbsp;feita escolha da forma de pagamento.   Os créditos serão liberados automaticamente após a confirmação   de pagamento. </p>
+          <p>7. Acesso</p>
+          <p>Para usufruir o serviço, você&nbsp;  precisa ter o equipamento necessário para estar conectado a World Wide   Web e visualizar arquivos em hipertexto. É de sua inteira responsabilidade:&nbsp;&nbsp;<br>
+            &nbsp;<br>
+            a) providenciar o seu próprio acesso à Internet e pagar todas as taxas   de serviço eventualmente cobradas por terceiros com relação a tal   acesso;&nbsp;&nbsp;<br>
+            b) providenciar seu próprio acesso a um endereço para envio de mensagens   eletrônicas via Internet e pagar todas as taxas de serviço eventualmente   cobradas por terceiros com relação a tal acesso;&nbsp;&nbsp;<br>
+            c) providenciar todo o equipamento necessário para efetuar sua conexão   à Internet, incluindo, mas não se limitando, a um computador e um   modem;&nbsp;&nbsp;<br>
+            d) efetuar seu próprio cadastro no IQ Mail; e&nbsp;&nbsp;<br>
+            e) manter o ambiente de seu computador seguro, com uso de ferramentas   disponíveis como anti-virus e firewall, entre outras, atualizadas,   de modo a contribuir na prevenção de riscos eletrônicos do lado do   usuário, desde que estas ferramentas de proteção não interfiram   na utilização do serviço.</p>
+          <p>8. Registro</p>
+          <p>Para que você&nbsp;possa utilizar   todos os serviços, você&nbsp;deve registrar-se no IQ Mail, através   de formulário específico de cadastro, fornecendo informações verdadeiras,   exatas, atuais e completas sobre si mesmo, bem como deverá conservar   e atualizar referidas informações imediatamente sempre que houver   qualquer mudança dos dados, a fim de mantê-los verdadeiros, exatos,   atuais e completos. Se qualquer informação fornecida por você for   falsa, incorreta, desatualizada ou incompleta, ou caso o IQ Mail tenha   razões suficientes para suspeitar que tais informações sejam falsas,   incorretas, desatualizadas ou incompletas, o IQ Mail terá o direito   de suspender ou cancelar imediatamente, independente de notificação,   acarretando a perda total dos créditos remanescentes de sua titularidade,   a sua conta de usuário e recusar toda e qualquer utilização, presente   ou futura do serviço, ou parte dele. Para o cadastro no site, é necessário   que você abra uma conta. É expressamente proibida a criação de conta   em nome de terceiros. Você deverá informar seu próprio endereço   eletrônico a ser utilizado para o recebimento de mensagens advindas   de seu cadastro.</p>
+          <p>9. Senha e Segurança</p>
+          <p>Ao registrar-se no IQ Mail você deverá   criar um nome de usuário e uma senha. É de sua inteira responsabilidade   manter a senha em sigilo. Você é o responsável por toda atividade   realizada com o uso da sua conta, para o que é necessário digitar   sua senha secreta. O uso do nome de usuário e senha são imprescindíveis   para a permissão de acesso à ferramenta. Você concorda e está obrigado   a:&nbsp;&nbsp;<br>
+            &nbsp;<br>
+            (a) notificar imediatamente o IQ Mail sobre qualquer uso não autorizado   da sua senha ou conta ou qualquer outra quebra de segurança de que   tome conhecimento;&nbsp;&nbsp;<br>
+            (b) sair de sua conta de usuário ao final de cada sessão e assegurar   que esta não seja acessada por terceiros não autorizados. O IQ Mail   não será responsável por qualquer perda ou dano decorrente do descumprimento   do disposto nesta cláusula por parte do usuário; e&nbsp;&nbsp;<br>
+            (c) utilizar apenas senha segura, com no mínimo 5 caracteres, alfanuméricos,   sem uso de dados pessoais como nome próprio, iniciais, com parentesco,   atendendo aos padrões e requisitos mínimos de segurança.</p>
+          <p>10. Privacidade de Nossos Visitantes</p>
+          <p>O IQ Mail possui uma política expressa   sobre privacidade online. As informações de registro e algumas outras   informações sobre o usuário estão sujeitas ao tratamento referido   em tal política. Para maiores informações, favor consultar o documento   "Política de Privacidade do IQ Mail" . Tal documento constitui   parte integrante destes Termos e Condições de Uso do IQ Mail e deverá   ser lido atentamente por todos os usuários antes da aceitação e utilização   dos serviços. Referida política poderá sofrer alterações, e por   isso recomendamos sua leitura frequentemente.</p>
+          <p>11. Privacidade de Informações</p>
+          <p>O IQ Mail não comercializa as informações fornecidas por você. Seus dados e contatos não serão vendidos ou compartilhados com terceiros sem sua prévia autorização. Caso tenha solicitado, usaremos seus dados para mantê-lo informado sobre serviços, novidades e benefícios. Você sempre terá a opção de cancelar o recebimento de tais mensagens.</p>
+          <p>12. Conduta do Usuário</p>
+          <p>Ao utilizar o serviço do IQ Mail você&nbsp;  se compromete a pautar suas mensagens em conformidade com a lei e a   moral, não podendo usar esse serviço para:&nbsp;&nbsp;<br>
+            &nbsp;<br>
+            (a) submeter, postar, ou transmitir por qualquer meio, conteúdo que   seja difamatório, calunioso, injurioso, abusivo, vulgar, obsceno, ou   que de qualquer forma atente contra a moral e os bons costumes;&nbsp;&nbsp;<br>
+            (b) submeter, postar ou transmitir por qualquer meio, conteúdo que   infrinja ou viole direito de terceiros, incluídos direitos da personalidade   e de propriedade intelectual;&nbsp;&nbsp;<br>
+            (c) submeter, postar ou transmitir por qualquer meio, vírus, arquivos   corrompidos, ou quaisquer outros programas que possam danificar, ainda   que momentaneamente, a operação de computador alheio;&nbsp;&nbsp;<br>
+            (d) submeter, postar ou transmitir por quaisquer meio, protestos, manifestações   política ou religiosa, pirâmides, esquemas, spams, etc.; e&nbsp;&nbsp;<br>
+            (e) submeter, postar ou transmitir por qualquer meio, conteúdo que   seja contrário à lei. O IQ Mail não controla nem endossa o conteúdo   dos e-mails enviados pelos membros cadastrados, pelo que não pode,   conseqüentemente, garantir a exatidão, a qualidade, ou a confiabilidade   dos produtos e serviços ofertados por seus usuários. Todavia, caso   chegue ao conhecimento da administração do IQ Mail qualquer violação   às condições acima, fica o membro ciente de que poderá ser excluído   do cadastro, a exclusivo critério do IQ Mail, sob penalidade de ter   seus créditos extintos e sujeito à cominações legais.</p>
+          <p>13. Política Anti-Spam</p>
+          <p>Toda mensagem de e-mail enviada através   dos serviços do IQ Mail deverão conter um link para que o destinatário   da mensagem possa se descadastrar da lista da empresa. Você&nbsp;concorda   em tão somente importar bases permitidas, de forma que bases compradas,   listas de distribuição ou grupos não podem ser utilizadas, pois configuram   a prática de spam. Você não pode copiar o template do IQ Mail, a   fim de utilizá-lo integralmente, ou de suas características, sem ser   com a finalidade de envio de e-mail através do IQ Mail. Se o IQ Mail   desconfiar ou verificar que houve referida utilização com o desvio   de finalidade, sua conta poderá ser desativada sem o reembolso dos   créditos comprados anteriormente. Ao cadastrar-se no site você declara   que leu e aceitou todas as cláusulas e condições da Política Anti-Spam   do IQ Mail, documento o qual é parte integrante deste Termos e Condições   de Uso do IQ Mail. A Política Anti-Spam poderá sofrer alterações,   e por isso sugerimos sua leitura e verificação constante.</p>
+          <p>14. Propriedade Intelectual</p>
+          <p>Todo o conteúdo deste site, incluindo,   mas não se limitando a informações, textos, marcas, obras, programas,   fotografias, gráficos, vídeos, layout e design da página, é&nbsp;  registrado nos órgãos competentes e se encontra protegido por direitos   autorais ou outros direitos de propriedade intelectual. Estes direitos   pertencem ao IQ Mail ou a terceiros que outorgaram licença de uso ou   autorização para o mesmo, de forma que somente o IQ Mail pode utilizar   este material. A sua reprodução, cópia, publicação, distribuição,   venda, transferência, ou coleta de base de dados, constitui violação   a direito autoral. Ao acessar e utilizar o IQ Mail, você declara que   irá respeitar todos os direitos de propriedade intelectual e industrial,   os decorrentes da proteção de marcas registradas da mesma, bem como   de todos os direitos referentes a terceiros que porventura estejam,   ou estiveram, de alguma forma, disponíveis no site. O simples acesso   ao site não confere a você qualquer direito de uso do conteúdo do   site, que nele estejam, ou estiveram, disponíveis. A reprodução dos   conteúdos descritos anteriormente está proibida, salvo prévia autorização   por escrito do IQ Mail, que deve ser feita por solicitação através   do e-mail IQ <a href="mailto:suporte@iqmail.com.br" target="_blank">suporte@iqmail.com.br</a>. O usuário assume toda e qualquer   responsabilidade, de caráter civil e/ou criminal, pela utilização   indevida das informações, textos, marcas, obras, programas, fotografias,   gráficos, vídeos, layout e design da página, enfim, todo e qualquer   direito de propriedade intelectual ou industrial deste site.</p>
+          <p>15. Suspensão/Exclusão do Cadastro</p>
+          <p>A critério do IQ Mail, você&nbsp;  poderá&nbsp;ser suspenso ou ter seu cadastro excluído se, no uso dos   serviços, enviar mensagens que:&nbsp;&nbsp;<br>
+            &nbsp;<br>
+            (a) viole alguma cláusula deste Termo;&nbsp;&nbsp;<br>
+            (b) viole cláusula da Política Anti-Spam;&nbsp;&nbsp;<br>
+            (c) viole cláusula da Política de Privacidade;&nbsp;ou&nbsp;<br>
+            (d) viole direitos de terceiros ou do IQ Mail.&nbsp;<br>
+          </p>
+          <p>16. Utilização do Site e de seus   Links</p>
+          <p>As páginas do IQ Mail contêm links   (inclusive em forma de banner) operados por terceiros. O conteúdo das   páginas às quais possa o membro ser direcionado através do link,   não é de responsabilidade do IQ Mail e nem é por ele endossado. O   IQ Mail não se responsabiliza nem pelo conteúdo nem pelas políticas   e práticas de privacidade dos sites que apontam para o IQ Mail e daqueles   para os quais apontamos.</p>
+          <p>17. Cláusula de Não Indenizar</p>
+          <p>O serviço de e-mail marketing contém   mensagens, as quais divulgam produtos e serviços de terceiros. O IQ   Mail não endossa, não&nbsp;é&nbsp;representante, e nem é responsável   por forma, exatidão, conveniência, perfeição ou credibilidade de   qualquer conteúdo transmitida através do serviço. Você está ciente   de que é responsável, civil e criminalmente, pelo conteúdo de suas   mensagens. O IQ Mail não dá garantia, expressa ou implícita, sobre   a qualidade ou negociabilidade de quaisquer produtos ou serviços anunciados   através do serviço. Não obstante o IQ Mail adote todas as medidas   razoáveis para a prevenção contra a introdução de vírus ou outros   materiais destrutivos no serviço, não pode assegurar nem garantir   que o serviço ou seu conteúdo não sofrerá interrupções ou erros,   ou que qualquer informação ou outro material acessível pelo serviço   esteja livre de vírus, worms, trojans, horses, ou quaisquer componentes   prejudiciais ao seu sistema.</p>
+          <p>18. Indenização</p>
+          <p>Você&nbsp;concorda em indenizar e   isentar o IQ Mail e suas matrizes, subsidiárias, afiliadas, diretores   e empregados, parceiros e clientes que exibam suas marcas em conjunto   com o IQ Mail, de quaisquer perdas e danos que venham a ser demandados,   incluindo despesas judiciais e honorários advocatícios em razão da   má conduta do usuário, no uso do serviço, na violação destes termos   ou na violação de qualquer direito.</p>
+          <p>19. Direito de Regresso</p>
+          <p>Qualquer ação judicial que venha   a sofrer o IQ Mail por violação de direito de terceiros, cujo conteúdo   do envio de mensagem tenha dado causa, este será acionado judicialmente,   face ao direito da empresa que explora o meio de informação ou divulgação   à ação regressiva para haver do autor do escrito, a indenização   que pagar, com os acréscimos legais.</p>
+          <p>20. Modificações destes Termos e   Condições.</p>
+          <p>O IQ Mail se reserva o direito de modificar   a qualquer momento, de forma unilateral, sem prévia ou posterior notificação,   o presente Termo e Condições de Uso. Ao utilizar os serviços do IQ   Mail, você aceita as cláusulas e condições do termo que estiver   vigente na data do acesso e, portanto, deve verificar o mesmo, previamente,   cada vez que visitar o site.</p>
+          <p>21. Atendimento ao Usuário.</p>
+          <p>O IQ Mail mantém à disposição de   seus usuários um canal para esclarecimento de dúvidas e reclamações   relativas aos serviços prestados, através do e-mail <a href="mailto:suporte@iqmail.com.br" target="_blank">suporte@iqmail.com.br</a>.</p>
+          <p>22. Disposições Gerais</p>
+          <p>Para uma maior segurança do IQ Mail   e dos usuários, é&nbsp;necessário que você esteja atento aos seguintes   pontos:&nbsp;&nbsp;<br>
+            &nbsp;<br>
+            (a) Nunca forneça sua senha a terceiros. Ela é pessoal e intransferível;&nbsp;&nbsp;<br>
+            (b) Ao criar sua senha, não use senhas óbvias, tais como nome próprio,   iniciais, com parentesco, data de nascimento, etc. Procure utilizar   letras e números a fim de atender aos padrões e requisitos mínimos   de segurança;&nbsp;&nbsp;<br>
+            (c) Caso você tenha fornecido sua senha a terceiros, avise imediatamente   o IQ Mail, através do e-mail IQ <a href="mailto:suporte@iqmail.com.br" target="_blank">suporte@iqmail.com.br</a>, para que o mesmo   proceda à alteração de sua senha;&nbsp;&nbsp;<br>
+            (d) A transmissão de vírus se dá através de e-mails que solicitam   a digitação de senhas, ou que possuem informações de cobrança ou   contêm arquivo anexado com vírus. Fique atento e caso desconfie da   procedência do e-mail, não o abra; e&nbsp;&nbsp;<br>
+            (e) A transmissão de vírus e de programas destrutivos que podem fazer   com que o seu computador divulgue informações pessoais, também se   dá comumente através do download de arquivos infectados. Portanto,   se você não conhece quem os enviou ou caso você não o tenha solicitado,   não efetue o download.</p>
+          <p>23. Lei Aplicável e Jurisdição.</p>
+          <p>O presente Termo e Condições de Uso   rege-se pela legislação da República Brasileira. Os usuários do   IQ Mail se submetem ao Foro Central da Comarca da Capital do Estado   do Rio de Janeiro.</p>
+          <p>24. Assinatura</p>
+          <p>A aceitação destes termos é&nbsp;  realizada pela manifestação inequívoca de vontade do contratante   ao se cadastrar na ferramenta IQ Mail, aderindo assim a todos os   termos deste contrato.</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Concluir</a>
+        </div>
+      </div>
+
+      <!-- Modal Structure -->
+      <div id="modal2" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4 class="grey-text text-darken-2">Política Anti-Spam do IQmail</h4>
+
+          <div class="termos_uso">
+            <br>
+            <p>Como ferramenta de serviços de e-mail marketing, o IQ Mail possui uma política de prevenção contra e-mails não solicitados ("spam"). O IQ Mail não tolera o spam, e portanto, monitora se os seus clientes estão importando à sua conta grandes listas de e-mails, ou ainda, se enviam e-mails a um número elevado de pessoas.</p>
+            <i></i><p><i>O que é o spam?</i>
+            </p><p>O spam consiste no envio de e-mails para divulgação de produtos e serviços, não solicitados pelos destinatários. Todos os clientes que estiverem usando o IQ Mail para a prática de spam, poderão ser excluídos do catálogo do mesmo, ficando sujeitos à descontinuidade de utilização por tempo indeterminado dos serviços de e-mail marketing do IQ Mail, a seu exclusivo critério. Cumpre mencionar que a rescisão do cadastro acarreta em perda total dos créditos de titularidade do cliente.
+            </p><p><i>Para quem eu posso enviar e-mails sem que seja caracterizado o spam?</i>
+            </p><p>Para todos aqueles que já efetuaram compras em sua loja, ou pediram informações, responderam a questionários, bem como àqueles que entraram em contato por meio offline com a sua empresa e autorizaram expressamente o recebimento de e-mail marketing.
+            </p><p>Se você é cliente do IQ Mail e envia e-mails somente àqueles que autorizaram o seu recebimento, você está seguindo a Política Anti-Spam do IQ Mail.
+            </p><p><i>O que caracteriza o consentimento ou a autorização expressa do destinatário?</i>
+            </p><p>Quando o seu destinatário tiver sido devidamente notificado sobre o uso do endereço de e-mail dele e tiver consentido o uso.
+            </p><p>Note-se que é obrigatório que todos os e-mails enviados através do IQ Mail contenham um link para que o destinatário possa se descadastrar dos serviços do IQ Mail. Caso o usuário, por qualquer meio de tecnologia, tente remover referido link, o mesmo estará sujeito ao cancelamento de sua inscrição, a critério do IQ Mail. Lembre-se que o cancelamento de inscrição acarreta a total perda dos créditos de titularidade do cliente.
+            </p><p><i>O que é o Descadastro Seguro?</i>
+            </p><p>O Descadastro Seguro consiste em uma marca, exclusiva do IQ Mail, registrada junto ao Instituto Nacional de Propriedade Industrial ("INPI"), o qual possibilita o cancelamento do cadastro de um destinatário na lista de determinado cliente. Dessa forma, caso o destinatário não queira receber e-mails de uma determinada empresa, ele irá se descadastrar através do link obrigatório, e seu endereço de e-mail será automaticamente bloqueado na lista daquela empresa. Referido bloqueio é realizado tão somente pelo IQ Mail, não podendo o cliente, em tempo algum, modificar o status dos e-mails bloqueados.
+            </p><p><i>Como o IQ Mail protege a sua empresa de enviar spam?</i>
+            </p><p>Os serviços de e-mail marketing do IQ Mail possuem as seguintes características:
+            </p><p>1. Verificação: O IQ Mail enviará automaticamente para o endereço de e-mail do remetente, um e-mail de confirmação, a fim de verificar a existência do mesmo.
+            </p><p>2. Lembrete: Sempre que o cliente utilizar a ferramenta de inclusão automática de contatos, ou seja, quando realizar a importação de listas ao seu banco de contatos, o sistema apresentará um questionário a fim de verificar se o cliente está seguindo a política anti-spam.
+            </p><p>3. Descadastro Seguro: Todo e-mail criado com a ferramenta IQ Mail deverá conter um link para o descadastramento do destinatário, o qual permitirá que o usuário opte pelo não envio de correspondência ao seu endereço eletrônico. O usuário que optar pelo não recebimento de e-mail marketing, terá seu endereço bloqueado pelo IQ Mail.
+            </p><p>4. Identificação: As informações do rodapé do seu e-mail serão elaboradas previamente por você através do IQ Mail. O rodapé identifica a sua empresa como o remetente e responsável pelo conteúdo da mensagem.
+            </p><p>5. Informações para contato: Todos os e-mails enviados deverão conter informações para contato de sua empresa.
+            </p><p><i>Como proteger a sua empresa de enviar spam?</i></p><p>
+            </p><li>Você importou aos seus contatos, lista de endereços comprada de qualquer natureza ou tipo?
+            </li><li>Você envia e-mail a endereços não específicos, tais como: info@domínio.com.br, vendas@domínio.com.br, negócios@domínio.com.br, ou a qualquer outro e-mail generalizado?
+            </li><li>Você envia e-mails a listas ou correios que distribuem e-mails indistintamente entre diversos endereços eletrônicos?
+            </li><li>Você envia e-mails a pessoas que não concordaram expressamente em participar da sua lista de correio eletrônico?
+            </li><li>Você falsificou seu endereço de e-mail original ou o caminho para suas informações?
+            </li><li>Você utilizou endereço de e-mail ou domínio de terceiros sem a sua permissão?
+            </li><li>O assunto ou conteúdo do seu e-mail contém informações falsas ou enganosas?
+            </li><li>O seu e-mail não forneceu o link para o Descadastro Seguro?</li>
+            <p>Se você respondeu SIM a qualquer uma das questões acima, então você infringiu a Política Anti-Spam do IQ Mail.
+            <br>Entre em contato conosco através do e-mail <a href="mailto:suporte@iqmail.com.br"><i>suporte@iqmail.com.br</i></a> para regularizarmos sua situação.
+            </p><p>Se você souber ou tiver suspeita de qualquer violação à Política Anti-Spam do IQ Mail, avise-nos imediatamente pela aba Fale Conosco.</p>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Concluir</a>
+        </div>
+      </div>
+
+    <div class="container">© Copyright 2005-2016 JS Corp | <a href="#modal1" class="white-text">Termos</a> | <a href="#modal2" class="white-text">Política Anti-Spam</a><a class="grey-text text-lighten-4 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">MIT License</a> </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript" src="js/init.js"></script>
+
+</body>
+</html>

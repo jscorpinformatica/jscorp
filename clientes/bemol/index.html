@@ -1,0 +1,59 @@
+
+
+<html>
+<input id="DeliveryPostalCode" name="DeliveryPostalCode" class="postalcode-masked" size="8" maxlength="9" type="text" value="22793-084">
+<div class="types delivery-options"> 			  			 			 			 				 					 				 					 				 			 			 				<ul class=""> 					 						  								 							 							 								 							  					<li class="fe_expresso loop.CssClass js-delivery-choice type-C  cheaper"> 								<input type="radio" id="DeliveryOptionID_3_9" name="DeliveryChoice" value="3_9">  								 								  								<img class="photo" src="https://d8xabijtzlaac.cloudfront.net/Custom/Content/Themes/Shared/Images/Delivery/fe_expresso.jpg" alt="Expresso" onerror="">  								 									<p> 										<b> 											<span class="name">Expresso </span> 											<span class="quote"> - 												 													R$ 22,92 												 											</span> 										</b><br> 								 								 								 								 									 										Prazo previsto de entrega: Até 									 									 									 										<span class="eta">17 dia(s) útil(eis)</span> 									 								 										 								 								 							</p></li> 							 						  								 							 							 								 							  					<li class="fe_economico loop.CssClass js-delivery-choice type-C  cheaper"> 								<input type="radio" id="DeliveryOptionID_3_5" name="DeliveryChoice" value="3_5">  								 								  								<img class="photo" src="https://d8xabijtzlaac.cloudfront.net/Custom/Content/Themes/Shared/Images/Delivery/fe_economico.jpg" alt="Normal" onerror="">  								 									<p> 										<b> 											<span class="name">Normal </span> 											<span class="quote"> - 												 													R$ 14,92 												 											</span> 										</b><br> 								 								 								 								 									 										Prazo previsto de entrega: Até 									 									 									 										<span class="eta">29 dia(s) útil(eis)</span> 									 								 										 								 								 							</p></li> 							 						 					 				</ul> 			 		</div>
+</html>
+
+<script>
+
+
+var decodeHtmlEntity = function(str) {
+  return str.replace(/&#(\d+);/g, function(match, dec) {
+    return String.fromCharCode(dec);
+  });
+};
+
+
+var tipo_entregas     = [];
+var preco_entregas    = [];
+var previsao_entregas = [];  
+
+var cep = document.getElementById('DeliveryPostalCode');
+
+var tipo = 0.00;
+var lista_tipo = document.querySelectorAll('span[class="name"]');
+
+for (i = 0; i < lista_tipo.length; i++) {
+     tipo = lista_tipo[i].textContent;
+     tipo = tipo.trim();
+     console.log(tipo);
+}  
+
+var preco = 0.00;
+var lista_price = document.querySelectorAll('[class="quote"] > span');
+
+for (i = 0; i < lista_price.length; i++) {
+     preco = lista_price[i].textContent;
+     preco = preco.replace("-","");
+     preco = preco.replace("R$ ","");
+     preco = preco.replace(".","");
+     preco = preco.replace(",",".");
+     preco = preco.trim();
+     preco_entregas.push(preco);
+}  
+
+
+var previsao = 0.00;
+var lista_previsao = document.querySelectorAll('[class="eta"] > span');
+
+for (i = 0; i < lista_previsao.length; i++) {
+     previsao = lista_previsao[i].textContent;
+     previsao = decodeURIComponent(escape(previsao.trim()));
+     previsao_entregas.push(previsao);
+}  
+
+var sku = document.getElementById('DeliveryPostalCode');
+
+
+</script>
